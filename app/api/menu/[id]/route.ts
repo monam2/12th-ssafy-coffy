@@ -16,17 +16,23 @@ export async function GET(req: NextRequest,  { params }: { params: { id: string 
   console.log(params);
 
   if (!id) {
-    return NextResponse.json({ error: "잘못된 ID입니다." }, { status: 400 });
+    const response = NextResponse.json({ error: "잘못된 ID입니다." }, { status: 400 });
+    response.headers.set('Content-Type', 'application/json; charset=utf-8');
+    return response;
   }
 
   const menu = menuList.find((item) => item.id === parseInt(id));
 
   if (!menu) {
-    return NextResponse.json(
+    const response = NextResponse.json(
       { error: "메뉴를 찾을 수 없습니다." },
       { status: 404 }
     );
+    response.headers.set('Content-Type', 'application/json; charset=utf-8');
+    return response;
   }
 
-  return NextResponse.json(menu);
+  const response = NextResponse.json(menu);
+  response.headers.set('Content-Type', 'application/json; charset=utf-8');
+  return response;
 }
