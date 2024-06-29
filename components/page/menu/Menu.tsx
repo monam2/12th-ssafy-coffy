@@ -4,6 +4,9 @@ import { getAllMenu, getMenuByCategory } from "@/api/apis";
 import categoryData from "@/data/category.json";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import MenuBar from "./MenuBar";
+import MenuItem from "./MenuItem";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 interface menuObject {
   id: number;
@@ -17,12 +20,16 @@ interface menuObject {
 interface categoryObject {
   id: number;
   value: string;
-  name:string;
+  name: string;
 }
 
 const Menu = () => {
+  const getAddToast = () => toast("카트에 담았습니다.");
+  const getDeleteToast = () => toast("카트에서 제거했습니다.");
   const [menuList, setMenuList] = useState<menuObject[]>([]);
-  const [categoryList, setCategoryList] = useState<categoryObject[]>(categoryData.data);
+  const [categoryList, setCategoryList] = useState<categoryObject[]>(
+    categoryData.data
+  );
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const menuBarRef = useRef<HTMLDivElement>(null);
 
@@ -37,10 +44,10 @@ const Menu = () => {
 
   const scrollRight = () => {
     if (menuBarRef.current) {
-        menuBarRef.current.scrollBy({
-            left: 180,
-            behavior: "smooth",
-          });
+      menuBarRef.current.scrollBy({
+        left: 180,
+        behavior: "smooth",
+      });
     }
   };
 
@@ -60,10 +67,9 @@ const Menu = () => {
     return <div>Loading...</div>;
   }
 
-
   return (
-    <div className="w-full h-20">
-      <div className="h-full flex justify-between gap3 items-center bg-slate-300 dark:bg-slate-500">
+    <div className="flex flex-col gap-12 mb-16">
+      <div className="h-20 flex justify-between gap3 items-center bg-slate-300 dark:bg-slate-500">
         <IoIosArrowBack
           onClick={scrollLeft}
           className="h-10 w-10 md:hidden text-white dark:text-gray-300 cursor-pointer"
@@ -79,11 +85,12 @@ const Menu = () => {
           className="h-10 w-10 md:hidden text-white dark:text-gray-300 cursor-pointer"
         />
       </div>
-      <div className="overflow-y-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-2 gap-y-10">
         {menuList.map((menuItem) => {
-          return <div key={menuItem.id}>{menuItem.menu}</div>;
+          return <MenuItem item={menuItem} key={menuItem.id} getAddToast={getAddToast} getDeleteToast={getDeleteToast}/>;
         })}
       </div>
+      <ToastContainer />
     </div>
   );
 };
