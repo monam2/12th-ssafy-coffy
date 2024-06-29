@@ -1,0 +1,59 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "name": "전체",
+      "value" : "all"
+    },
+    {
+      "id": 1,
+      "name": "커피",
+      "value" : "coffee"
+    },
+    {
+      "id": 2,
+      "name": "더치커피",
+      "value" : "dutchcoffee"
+    },
+    {
+      "id": 3,
+      "name": "음료",
+      "value" : "beverage"
+    },
+    {
+      "id": 4,
+      "name": "주스",
+      "value" : "juice"
+    },
+    {
+      "id": 5,
+      "name": "스무디",
+      "value" : "smoothie "
+    },
+    {
+      "id": 6,
+      "name": "에이드",
+      "value" : "ade"
+    },
+    {
+      "id": 7,
+      "name": "티",
+      "value" : "tea"
+    },
+    {
+      "id": 8,
+      "name": "프라페",
+      "value" : "frappe"
+    },
+    {
+      "id": 9,
+      "name": "밀크쉐이크",
+      "value" : "milkshake"
+    },
+    {
+      "id": 10,
+      "name": "기타",
+      "value" : "etc"
+    }
+  ]
+}

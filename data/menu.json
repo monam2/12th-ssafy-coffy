@@ -2,7 +2,7 @@
   "data": [
     {
       "id": 0,
-      "category": "커피",
+      "category": "coffee",
       "menu": "에스프레소",
       "onlyIce": false,
       "price": 1500,
@@ -10,7 +10,7 @@
     },
     {
       "id": 1,
-      "category": "커피",
+      "category": "coffee",
       "menu": "아메리카노",
       "onlyIce": false,
       "price": 1500,
@@ -18,7 +18,7 @@
     },
     {
       "id": 2,
-      "category": "커피",
+      "category": "coffee",
       "menu": "카페라떼",
       "onlyIce": false,
       "price": 2900,
@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "category": "커피",
+      "category": "coffee",
       "menu": "카푸치노",
       "onlyIce": false,
       "price": 2900,
@@ -34,7 +34,7 @@
     },
     {
       "id": 4,
-      "category": "커피",
+      "category": "coffee",
       "menu": "바닐라라떼",
       "onlyIce": false,
       "price": 3300,
@@ -42,7 +42,7 @@
     },
     {
       "id": 5,
-      "category": "커피",
+      "category": "coffee",
       "menu": "헤이즐넛라떼",
       "onlyIce": false,
       "price": 3300,
@@ -50,7 +50,7 @@
     },
     {
       "id": 6,
-      "category": "커피",
+      "category": "coffee",
       "menu": "카라멜마끼아또",
       "onlyIce": false,
       "price": 3300,
@@ -58,7 +58,7 @@
     },
     {
       "id": 7,
-      "category": "커피",
+      "category": "coffee",
       "menu": "카페모카",
       "onlyIce": false,
       "price": 3500,
@@ -66,7 +66,7 @@
     },
     {
       "id": 8,
-      "category": "커피",
+      "category": "coffee",
       "menu": "돌체라떼",
       "onlyIce": false,
       "price": 3800,
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "category": "커피",
+      "category": "coffee",
       "menu": "흑당카페라떼",
       "onlyIce": true,
       "price": 3800,
@@ -82,7 +82,7 @@
     },
     {
       "id": 10,
-      "category": "커피",
+      "category": "coffee",
       "menu": "달고나라떼",
       "onlyIce": true,
       "price": 4000,
@@ -90,7 +90,7 @@
     },
     {
       "id": 11,
-      "category": "커피",
+      "category": "coffee",
       "menu": "아인슈페너라떼",
       "onlyIce": true,
       "price": 4200,
@@ -98,7 +98,7 @@
     },
     {
       "id": 12,
-      "category": "더치커피",
+      "category": "dutchcoffee",
       "menu": "더치커피",
       "onlyIce": false,
       "price": 3300,
@@ -106,7 +106,7 @@
     },
     {
       "id": 13,
-      "category": "더치커피",
+      "category": "dutchcoffee",
       "menu": "더치라떼",
       "onlyIce": false,
       "price": 3800,
@@ -114,7 +114,7 @@
     },
     {
       "id": 14,
-      "category": "더치커피",
+      "category": "dutchcoffee",
       "menu": "아인슈페너",
       "onlyIce": true,
       "price": 4200,
@@ -122,7 +122,7 @@
     },
     {
       "id": 15,
-      "category": "음료",
+      "category": "beverage",
       "menu": "곡물라떼",
       "onlyIce": false,
       "price": 3300,
@@ -130,7 +130,7 @@
     },
     {
       "id": 16,
-      "category": "음료",
+      "category": "beverage",
       "menu": "고구마라떼",
       "onlyIce": false,
       "price": 3500,
@@ -138,7 +138,7 @@
     },
     {
       "id": 17,
-      "category": "음료",
+      "category": "beverage",
       "menu": "더블초코라떼",
       "onlyIce": false,
       "price": 3500,
@@ -146,7 +146,7 @@
     },
     {
       "id": 18,
-      "category": "음료",
+      "category": "beverage",
       "menu": "쿠키초코라떼",
       "onlyIce": false,
       "price": 3500,
@@ -154,7 +154,7 @@
     },
     {
       "id": 19,
-      "category": "음료",
+      "category": "beverage",
       "menu": "그린티라떼",
       "onlyIce": false,
       "price": 3500,
@@ -162,7 +162,7 @@
     },
     {
       "id": 20,
-      "category": "음료",
+      "category": "beverage",
       "menu": "민트초코오레오라떼",
       "onlyIce": false,
       "price": 3500,
@@ -170,7 +170,7 @@
     },
     {
       "id": 21,
-      "category": "음료",
+      "category": "beverage",
       "menu": "흑당밀크티",
       "onlyIce": true,
       "price": 3500,
@@ -178,7 +178,7 @@
     },
     {
       "id": 22,
-      "category": "음료",
+      "category": "beverage",
       "menu": "딸기 후르츠라떼",
       "onlyIce": true,
       "price": 3800,
@@ -186,7 +186,7 @@
     },
     {
       "id": 23,
-      "category": "음료",
+      "category": "beverage",
       "menu": "망고 후르츠라떼",
       "onlyIce": true,
       "price": 3800,
@@ -194,7 +194,7 @@
     },
     {
       "id": 24,
-      "category": "음료",
+      "category": "beverage",
       "menu": "블루베리 후르츠라떼",
       "onlyIce": true,
       "price": 3800,
@@ -202,7 +202,7 @@
     },
     {
       "id": 25,
-      "category": "음료",
+      "category": "beverage",
       "menu": "밀크티",
       "onlyIce": false,
       "price": 3800,
@@ -210,7 +210,7 @@
     },
     {
       "id": 26,
-      "category": "주스",
+      "category": "juice",
       "menu": "키위주스",
       "onlyIce": true,
       "price": 3800,
@@ -218,7 +218,7 @@
     },
     {
       "id": 27,
-      "category": "주스",
+      "category": "juice",
       "menu": "복숭아주스",
       "onlyIce": true,
       "price": 3800,
@@ -226,7 +226,7 @@
     },
     {
       "id": 28,
-      "category": "주스",
+      "category": "juice",
       "menu": "오렌지당근주스",
       "onlyIce": true,
       "price": 3800,
@@ -234,7 +234,7 @@
     },
     {
       "id": 29,
-      "category": "주스",
+      "category": "juice",
       "menu": "샤인머스켓웨일주스",
       "onlyIce": true,
       "price": 3800,
@@ -242,7 +242,7 @@
     },
     {
       "id": 30,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "딸기 스무디",
       "onlyIce": true,
       "price": 3800,
@@ -250,7 +250,7 @@
     },
     {
       "id": 31,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "망고 스무디",
       "onlyIce": true,
       "price": 3800,
@@ -258,7 +258,7 @@
     },
     {
       "id": 32,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "블루베리 스무디",
       "onlyIce": true,
       "price": 3800,
@@ -266,7 +266,7 @@
     },
     {
       "id": 33,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "유자 스무디",
       "onlyIce": true,
       "price": 3800,
@@ -274,7 +274,7 @@
     },
     {
       "id": 34,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "딸기 요거트스무디",
       "onlyIce": true,
       "price": 4000,
@@ -282,7 +282,7 @@
     },
     {
       "id": 35,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "플레인 요거트스무디",
       "onlyIce": true,
       "price": 4000,
@@ -290,7 +290,7 @@
     },
     {
       "id": 36,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "블루베리 요거트스무디",
       "onlyIce": true,
       "price": 4000,
@@ -298,7 +298,7 @@
     },
     {
       "id": 37,
-      "category": "스무디",
+      "category": "smoothie",
       "menu": "망고 요거트스무디",
       "onlyIce": true,
       "price": 4000,
@@ -306,7 +306,7 @@
     },
     {
       "id": 38,
-      "category": "에이드",
+      "category": "ade",
       "menu": "자몽 에이드",
       "onlyIce": true,
       "price": 3500,
@@ -314,7 +314,7 @@
     },
     {
       "id": 39,
-      "category": "에이드",
+      "category": "ade",
       "menu": "레몬 에이드",
       "onlyIce": true,
       "price": 3500,
@@ -322,7 +322,7 @@
     },
     {
       "id": 40,
-      "category": "에이드",
+      "category": "ade",
       "menu": "유자 에이드",
       "onlyIce": true,
       "price": 3500,
@@ -330,7 +330,7 @@
     },
     {
       "id": 41,
-      "category": "에이드",
+      "category": "ade",
       "menu": "블루레몬 스페셜에이드",
       "onlyIce": true,
       "price": 3500,
@@ -338,7 +338,7 @@
     },
     {
       "id": 42,
-      "category": "에이드",
+      "category": "ade",
       "menu": "청포도 스페셜에이드",
       "onlyIce": true,
       "price": 3500,
@@ -346,7 +346,7 @@
     },
     {
       "id": 43,
-      "category": "에이드",
+      "category": "ade",
       "menu": "패션후르츠 스페셜에이드",
       "onlyIce": true,
       "price": 3500,
@@ -354,7 +354,7 @@
     },
     {
       "id": 44,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "페퍼민트",
       "onlyIce": false,
       "price": 2500,
@@ -362,7 +362,7 @@
     },
     {
       "id": 45,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "캐모마일",
       "onlyIce": false,
       "price": 2500,
@@ -370,7 +370,7 @@
     },
     {
       "id": 46,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "로즈마리",
       "onlyIce": false,
       "price": 2500,
@@ -378,7 +378,7 @@
     },
     {
       "id": 47,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "얼그레이",
       "onlyIce": false,
       "price": 2500,
@@ -386,7 +386,7 @@
     },
     {
       "id": 48,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "블랙퍼스트",
       "onlyIce": false,
       "price": 2500,
@@ -394,7 +394,7 @@
     },
     {
       "id": 49,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "자몽 과일티",
       "onlyIce": false,
       "price": 3500,
@@ -402,7 +402,7 @@
     },
     {
       "id": 50,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "레몬 과일티",
       "onlyIce": false,
       "price": 3500,
@@ -410,7 +410,7 @@
     },
     {
       "id": 51,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "유자 과일티",
       "onlyIce": false,
       "price": 3500,
@@ -418,7 +418,7 @@
     },
     {
       "id": 52,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "복숭아티",
       "onlyIce": true,
       "price": 3000,
@@ -426,7 +426,7 @@
     },
     {
       "id": 53,
-      "category": "차·음료",
+      "category": "tea",
       "menu": "자몽허니블랙티",
       "onlyIce": true,
       "price": 3800,
@@ -434,7 +434,7 @@
     },
     {
       "id": 54,
-      "category": "프라페",
+      "category": "frappe",
       "menu": "리얼초코자바칩 프라페",
       "onlyIce": true,
       "price": 4000,
@@ -442,7 +442,7 @@
     },
     {
       "id": 55,
-      "category": "프라페",
+      "category": "frappe",
       "menu": "쿠키초코 프라페",
       "onlyIce": true,
       "price": 4000,
@@ -450,7 +450,7 @@
     },
     {
       "id": 56,
-      "category": "프라페",
+      "category": "frappe",
       "menu": "민트초코오레오 프라페",
       "onlyIce": true,
       "price": 4000,
@@ -458,7 +458,7 @@
     },
     {
       "id": 57,
-      "category": "프라페",
+      "category": "frappe",
       "menu": "그린티 프라페",
       "onlyIce": true,
       "price": 4000,
@@ -466,7 +466,7 @@
     },
     {
       "id": 58,
-      "category": "프라페",
+      "category": "frappe",
       "menu": "모카자바칩 프라페",
       "onlyIce": true,
       "price": 4500,
@@ -474,7 +474,7 @@
     },
     {
       "id": 59,
-      "category": "밀크쉐이크",
+      "category": "milkshake",
       "menu": "플레인밀크쉐이크",
       "onlyIce": true,
       "price": 4200,
@@ -482,7 +482,7 @@
     },
     {
       "id": 60,
-      "category": "밀크쉐이크",
+      "category": "milkshake",
       "menu": "캔디소다 밀크쉐이크",
       "onlyIce": true,
       "price": 4200,
@@ -490,7 +490,7 @@
     },
     {
       "id": 61,
-      "category": "밀크쉐이크",
+      "category": "milkshake",
       "menu": "쿠키 밀크쉐이크",
       "onlyIce": true,
       "price": 4500,
@@ -498,7 +498,7 @@
     },
     {
       "id": 62,
-      "category": "밀크쉐이크",
+      "category": "milkshake",
       "menu": "커피 밀크쉐이크",
       "onlyIce": true,
       "price": 4500,
@@ -506,7 +506,7 @@
     },
     {
       "id": 63,
-      "category": "밀크쉐이크",
+      "category": "milkshake",
       "menu": "팥절미 밀크쉐이크",
       "onlyIce": true,
       "price": 4500,
@@ -514,7 +514,7 @@
     },
     {
       "id": 64,
-      "category": "기타",
+      "category": "etc",
       "menu": "콘소메 수프맛 팝콘",
       "onlyIce": false,
       "price": 1500,
@@ -522,7 +522,7 @@
     },
     {
       "id": 65,
-      "category": "기타",
+      "category": "etc",
       "menu": "더블샷 카라멜 팝콘",
       "onlyIce": false,
       "price": 2000,
@@ -530,7 +530,7 @@
     },
     {
       "id": 66,
-      "category": "기타",
+      "category": "etc",
       "menu": "트러플 체다치즈 팝콘",
       "onlyIce": false,
       "price": 1700,
@@ -538,7 +538,7 @@
     },
     {
         "id": 67,
-      "category": "커피",
+      "category": "etc",
       "menu": "빅포즈 아메리카노(946ml, 4샷)",
       "onlyIce": false,
       "price": 3000,
