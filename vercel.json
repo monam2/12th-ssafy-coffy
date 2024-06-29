@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/menu/:category",
+        "destination": "/api/menu/[category]"
+      }
+    ]
+  }
+  
