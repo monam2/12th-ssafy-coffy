@@ -50,10 +50,6 @@ export default function Home() {
           />
         </div>
       </div>
-
-      <div className="flex flex-col">
-        <DarkModeToggle />
-      </div>
     </div>
   );
 }
