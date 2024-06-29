@@ -17,7 +17,7 @@ const Footer = () => {
         window.open('https://instagram.com/wxooo_kk', '_blank');
         break;
       case "mattermost":
-        window.open('', '_blank');
+        window.open('https://meeting.ssafy.com/s11public/messages/@kangcw0107', '_blank');
         break;
     }
   };
