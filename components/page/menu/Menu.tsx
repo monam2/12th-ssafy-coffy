@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import { getAllMenu, getMenuByCategory } from "@/api/apis";
 import categoryData from "@/data/category.json";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -44,22 +44,22 @@ const Menu = () => {
     }
   };
 
-  const fetchMenuList = async () => {
-    if (selectedCategory==="all") {
-        setMenuList(await getAllMenu());
+  const fetchMenuList = useCallback(async () => {
+    if (selectedCategory === "all") {
+      setMenuList(await getAllMenu());
     } else {
-        setMenuList(await getMenuByCategory(selectedCategory))
+      setMenuList(await getMenuByCategory(selectedCategory));
     }
-    
-  };
+  }, [selectedCategory]);
 
   useEffect(() => {
     fetchMenuList();
-  }, [selectedCategory]);
+  }, [fetchMenuList]);
 
   if (!menuList) {
     return <div>Loading...</div>;
   }
+
 
   return (
     <div className="w-full h-20">
