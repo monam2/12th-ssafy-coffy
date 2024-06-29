@@ -54,7 +54,7 @@ const Menu = () => {
 
   useEffect(() => {
     fetchMenuList();
-  }, [fetchMenuList]);
+  }, [fetchMenuList, selectedCategory]);
 
   if (!menuList) {
     return <div>Loading...</div>;
