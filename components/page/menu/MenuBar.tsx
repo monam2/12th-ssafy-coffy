@@ -41,4 +41,6 @@ const MenuBar = forwardRef<HTMLDivElement, MenuBarProps>(
   }
 );
 
+MenuBar.displayName = "MenuBar";
+
 export default MenuBar;
