@@ -1,6 +1,5 @@
 import { NextResponse } from "next/server";
 import menuData from "../../../../data/menu.json";
-import categoryData from "../../../../data/category.json";
 
 interface MenuObject {
   id: number;
@@ -16,7 +15,6 @@ export async function GET(
   { params }: { params: { category: string } }
 ) {
   const { category } = params;
-  console.log(category);
   const menuList: MenuObject[] = menuData.data as MenuObject[];
 
   const menus = menuList.filter(item => item.category === category);
