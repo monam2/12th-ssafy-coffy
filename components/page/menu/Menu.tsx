@@ -4,10 +4,9 @@ import { getAllMenu, getMenuByCategory } from "@/api/apis";
 import categoryData from "@/data/category.json";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import MenuBar from "./MenuBar";
-import MenuItem from "./MenuItem";
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import MenuList from "./MenuList";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 interface menuObject {
   id: number;
@@ -24,7 +23,11 @@ interface categoryObject {
   name: string;
 }
 
-const Menu = () => {
+interface MenuProps {
+  scrollToTop: () => void;
+}
+
+const Menu: React.FC<MenuProps> = ({ scrollToTop }) => {
   const getAddToast = () => toast("카트에 담았습니다.");
   const getDeleteToast = () => toast("카트에서 제거했습니다.");
   const [menuList, setMenuList] = useState<menuObject[]>([]);
@@ -86,7 +89,13 @@ const Menu = () => {
           className="h-10 w-10 md:hidden text-white dark:text-gray-300 cursor-pointer"
         />
       </div>
-      <MenuList menuList={menuList} getAddToast={getAddToast} getDeleteToast={getDeleteToast}/>
+      <div>
+        <MenuList
+          menuList={menuList}
+          getAddToast={getAddToast}
+          getDeleteToast={getDeleteToast}
+        />
+      </div>
       <ToastContainer />
     </div>
   );
