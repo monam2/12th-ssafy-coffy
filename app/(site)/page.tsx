@@ -1,10 +1,11 @@
 "use client";
+import CryptoJS from "crypto-js";
 import Image from "next/image";
 import { Input } from "@/components/ui/input";
 import Combobox from "./../../components/ui/combobox";
 import { useRouter } from "next/navigation";
 import { CustomAlertDialog } from "@/components/ui/alert-dialog";
-import React from "react";
+import React, { useEffect } from "react";
 
 export default function Home() {
   const [name, setName] = React.useState("");
@@ -13,8 +14,19 @@ export default function Home() {
   const router = useRouter();
 
   const onClickHandler = () => {
+    const key = `${process.env.NEXT_PUBLIC_SECRET_KEY}`;
+    const encryptedName = CryptoJS.AES.encrypt(name, key).toString();
+    const encryptedMmId = CryptoJS.AES.encrypt(mmId, key).toString();
+    const encryptedClassNum = CryptoJS.AES.encrypt(`${classNumber}`, key).toString();
+    window.sessionStorage.setItem('name', encryptedName);
+    window.sessionStorage.setItem('id', encryptedMmId);
+    window.sessionStorage.setItem('class', encryptedClassNum);
     router.push("/menu");
   };
+
+  useEffect(()=>{
+    window.sessionStorage.clear();
+  },[])
 
   return (
     <div className="flex flex-col justify-center gap-10 items-center h-full">
