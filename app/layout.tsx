@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   },
   description: "광주캠퍼스에서 커피가 마시고 십허요.",
   icons: {
-    icon: "/img/logo/logo-sm.png",
-    shortcut: "/img/logo/logo-sm.png",
-    apple: "/img/logo/logo-sm.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   openGraph: {
     title: "삽히코히 SSAFY-COFY",
