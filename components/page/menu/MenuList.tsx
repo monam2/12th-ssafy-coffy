@@ -12,8 +12,8 @@ interface menuObject {
 
 interface propsObject {
   menuList: menuObject[];
-  getAddToast: () => {};
-  getDeleteToast: () => {};
+  getAddToast: ()=>void;
+  getDeleteToast: ()=>void;
 }
 
 const MenuList = ({ menuList, getAddToast, getDeleteToast }: propsObject) => {

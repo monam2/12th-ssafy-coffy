@@ -28,8 +28,6 @@ interface MenuProps {
 }
 
 const Menu: React.FC<MenuProps> = ({ scrollToTop }) => {
-  const getAddToast = () => toast("카트에 담았습니다.");
-  const getDeleteToast = () => toast("카트에서 제거했습니다.");
   const [menuList, setMenuList] = useState<menuObject[]>([]);
   const [categoryList, setCategoryList] = useState<categoryObject[]>(
     categoryData.data
@@ -62,6 +60,13 @@ const Menu: React.FC<MenuProps> = ({ scrollToTop }) => {
       setMenuList(await getMenuByCategory(selectedCategory));
     }
   }, [selectedCategory]);
+
+  const getAddToast = () => {
+    toast("카트에 담았습니다.");
+  };
+  const getDeleteToast = () => {
+    toast("카트에서 제거했습니다.");
+  };
 
   useEffect(() => {
     fetchMenuList();
