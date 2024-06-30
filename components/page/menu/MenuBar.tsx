@@ -1,7 +1,7 @@
 "use client"
 import React, { forwardRef } from "react";
 
-interface categoryObject {
+interface categoryDto {
   id: number;
   value: string;
   name:string
@@ -9,7 +9,7 @@ interface categoryObject {
 
 interface MenuBarProps {
   selectedCategory: string;
-  category: categoryObject[];
+  category: categoryDto[];
   setSelectedCategory: React.Dispatch<React.SetStateAction<string>>;
 }
 

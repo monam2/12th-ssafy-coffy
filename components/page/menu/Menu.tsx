@@ -8,7 +8,7 @@ import MenuList from "./MenuList";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-interface menuObject {
+interface menuDto {
   id: number;
   category: string;
   menu: string;
@@ -17,7 +17,7 @@ interface menuObject {
   img: string;
 }
 
-interface categoryObject {
+interface categoryDto {
   id: number;
   value: string;
   name: string;
@@ -28,8 +28,8 @@ interface MenuProps {
 }
 
 const Menu: React.FC<MenuProps> = ({ scrollToTop }) => {
-  const [menuList, setMenuList] = useState<menuObject[]>([]);
-  const [categoryList, setCategoryList] = useState<categoryObject[]>(
+  const [menuList, setMenuList] = useState<menuDto[]>([]);
+  const [categoryList, setCategoryList] = useState<categoryDto[]>(
     categoryData.data
   );
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
