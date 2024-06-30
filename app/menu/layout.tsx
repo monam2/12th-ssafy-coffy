@@ -1,3 +1,4 @@
+import RecoilProvider from "@/components/RecoilProvider";
 import Footer from "@/components/elements/footer/Footer";
 import Header from "@/components/elements/header/Header";
 
@@ -7,12 +8,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body>
+    <div className="h-full">
+      <RecoilProvider>
         <Header />
         {children}
         <Footer />
-      </body>
-    </html>
+      </RecoilProvider>
+    </div>
   );
 }
