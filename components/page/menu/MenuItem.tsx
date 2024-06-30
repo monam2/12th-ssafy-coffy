@@ -21,7 +21,7 @@ interface menuObject {
 
 const MenuItem = ({ item, getAddToast, getDeleteToast }: { item: menuObject, getAddToast:()=>{}, getDeleteToast:()=>{} }) => {
   return (
-    <Card className="w-[300px] h-[430px] m-auto px-4">
+    <Card className="w-[300px] h-[430px] m-auto px-4 dark:bg-gray-400 dark:border-none">
       <CardHeader className="items-center m-auto p-2 pt-6">
         <Image
           className="rounded-2xl"
@@ -32,8 +32,8 @@ const MenuItem = ({ item, getAddToast, getDeleteToast }: { item: menuObject, get
         />
       </CardHeader>
       <CardContent className="flex flex-col justify-center">
-        <CardTitle>{item.menu}</CardTitle>
-        <CardDescription className="text-xl">
+        <CardTitle className="dark:text-white">{item.menu}</CardTitle>
+        <CardDescription className="text-xl dark:text-white">
           {item.price.toLocaleString()}원
         </CardDescription>
       </CardContent>
