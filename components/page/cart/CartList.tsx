@@ -2,12 +2,12 @@
 import { cartState } from "@/recoil/cart/atoms";
 import React from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { countedCartMenuList } from "@/recoil/cart/selector";
+import { totalCartCount, totalCartPrice } from "@/recoil/cart/selector";
 import CartItem from "./CartItem";
 
 const CartList = () => {
   const [cartMenus, setCartMenus] = useRecoilState(cartState);
-  const cartItems = useRecoilValue(countedCartMenuList);
+  const cartItems = useRecoilValue(cartState);
 
   if (!cartMenus.length) {
     return (
@@ -19,9 +19,11 @@ const CartList = () => {
 
   return (
     <div className="flex flex-col justify-start items-center">
-      {cartItems.map(({item, count}) => {
-        return <CartItem key={item.id} item={item} count={count}></CartItem>;
-      })}
+      <div className="flex flex-col justify-start items-center w-full max-h-[400px] gap-1">
+        {cartItems.map((item) => {
+          return <CartItem key={item.cartId} item={item}></CartItem>;
+        })}
+      </div>
     </div>
   );
 };

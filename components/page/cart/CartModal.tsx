@@ -1,11 +1,26 @@
 "use client";
-import { isOpenCartState } from "@/recoil/cart/atoms";
+import { cartState, isOpenCartState } from "@/recoil/cart/atoms";
 import React from "react";
-import { useRecoilState } from "recoil";
+import { useRecoilState, useRecoilValue } from "recoil";
 import CartList from "./CartList";
+import { useRouter } from "next/navigation";
+import { totalCartCount, totalCartPrice } from "@/recoil/cart/selector";
 
 const CartModal = () => {
+  const router = useRouter();
   const [isOpenCart, setIsOpenCart] = useRecoilState(isOpenCartState);
+  const cartData = useRecoilValue(cartState);
+
+  const totalPrice = useRecoilValue(totalCartPrice);
+  const totalCount = useRecoilValue(totalCartCount);
+
+  const moveTo = () => {
+    if (!cartData.length) {
+      alert("선택한 상품이 없습니다.");
+      return;
+    }
+    router.push("/menu/order");
+  };
 
   return (
     <div
@@ -23,8 +38,14 @@ const CartModal = () => {
         </div>
         <CartList />
         <div className="flex justify-end gap-4 p-4 border-t">
+        <span className="font-[Pretendard] text-2xl font-semibold text-center mr-2">
+          {totalCount}개 {totalPrice.toLocaleString()}원
+        </span>
           <button
-            onClick={() => setIsOpenCart(false)}
+            onClick={() => {
+              setIsOpenCart(false);
+              moveTo();
+            }}
             className="bg-blue-300 text-white px-4 py-2 rounded hover:bg-blue-400"
           >
             주문하기
