@@ -7,6 +7,7 @@ import MenuBar from "./MenuBar";
 import MenuItem from "./MenuItem";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MenuList from "./MenuList";
 
 interface menuObject {
   id: number;
@@ -85,11 +86,7 @@ const Menu = () => {
           className="h-10 w-10 md:hidden text-white dark:text-gray-300 cursor-pointer"
         />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-x-2 gap-y-10">
-        {menuList.map((menuItem) => {
-          return <MenuItem item={menuItem} key={menuItem.id} getAddToast={getAddToast} getDeleteToast={getDeleteToast}/>;
-        })}
-      </div>
+      <MenuList menuList={menuList} getAddToast={getAddToast} getDeleteToast={getDeleteToast}/>
       <ToastContainer />
     </div>
   );
