@@ -11,13 +11,15 @@ async function getAllMenu() {
 }
 
 async function getMenuByCategory(name) {
-    try {
-      const res = await fetch(baseURL + `/menu/${name}`);
-      const result = await res.json();
-      return result;
-    } catch (e) {
-      console.log(e);
-    }
+  try {
+    const res = await fetch(baseURL + `/menu/${name}`);
+    const result = await res.json();
+    return result;
+  } catch (e) {
+    console.log(e);
   }
+}
 
-export { getAllMenu,getMenuByCategory };
+
+
+export { getAllMenu, getMenuByCategory };
