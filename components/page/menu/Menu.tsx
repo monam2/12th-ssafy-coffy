@@ -70,14 +70,14 @@ const Menu: React.FC<MenuProps> = ({ scrollToTop }) => {
 
   useEffect(() => {
     fetchMenuList();
-  }, [fetchMenuList, selectedCategory]);
+  }, [selectedCategory]);
 
   if (!menuList) {
     return <div>Loading...</div>;
   }
 
   return (
-    <div className="flex flex-col gap-12 mb-16">
+    <div className="flex flex-col gap-8 mb-16">
       <div className="h-20 flex justify-between gap3 items-center bg-slate-300 dark:bg-slate-500">
         <IoIosArrowBack
           onClick={scrollLeft}
@@ -94,6 +94,9 @@ const Menu: React.FC<MenuProps> = ({ scrollToTop }) => {
           className="h-10 w-10 md:hidden text-white dark:text-gray-300 cursor-pointer"
         />
       </div>
+      <span className="font-[Pretendard] text-md text-gray-400 flex justify-center">
+        옵션을 선택하고 핫/아이스 버튼을 클릭하세요.
+      </span>
       <div>
         <MenuList
           menuList={menuList}
