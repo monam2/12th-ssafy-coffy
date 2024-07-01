@@ -5,11 +5,13 @@ import { FaArrowUp } from "react-icons/fa";
 import CartModal from "@/components/page/cart/CartModal";
 import { IoCartSharp } from "react-icons/io5";
 import { isOpenCartState } from "@/recoil/cart/atoms";
-import { useSetRecoilState } from "recoil";
+import { useRecoilValue, useSetRecoilState } from "recoil";
+import { totalCartCount } from "@/recoil/cart/selector";
 
 const Page = () => {
   const menuContainerRef = useRef<HTMLDivElement>(null);
   const setIsOpenCart = useSetRecoilState(isOpenCartState);
+  const cartCount = useRecoilValue(totalCartCount);
 
   const scrollToTop = () => {
     if (menuContainerRef.current) {
@@ -34,10 +36,15 @@ const Page = () => {
         <FaArrowUp className="w-6 h-6" />
       </button>
       <button
-      onClick={()=>setIsOpenCart(true)}
+        onClick={() => setIsOpenCart(true)}
         className="fixed bottom-20 right-20 bg-blue-300 hover:bg-blue-500 hover:scale-110 p-3 text-white rounded-full shadow-lg"
       >
-        <IoCartSharp className="w-6 h-6"/>
+        {!cartCount ? (
+          <IoCartSharp className="w-6 h-6" />
+        ) : (
+          <div className="w-6 h-6 flex justify-center items-center"><span className="text-2xl font-semibold font-[Pretendard]" >{cartCount}</span></div>
+          
+        )}
       </button>
       <CartModal />
     </div>
