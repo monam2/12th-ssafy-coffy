@@ -80,7 +80,7 @@ const ListBox = ({ user }: { user: userDto }) => {
             <div className="flex flex-col gap-1">
               {order.menus.map((item) => {
                 return (
-                  <div className="flex gap-3 justify-start px-20">
+                  <div key={item.id} className="flex gap-3 justify-start px-20">
                     {item.isHot ? (
                       <span className="text-center font-semibold font-[Pretendard] text-red-400 dark:text-red-500">
                         핫
