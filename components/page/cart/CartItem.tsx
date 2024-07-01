@@ -18,7 +18,7 @@ interface cartDto {
   cartId: number;
 }
 
-const CartItem = ({ item, idx }: { item: cartDto, idx:number }) => {
+const CartItem = ({ item, idx }: { item: cartDto; idx: number }) => {
   const [cartMenus, setCartMenus] = useRecoilState(cartState);
   const removeItemFromCart = (id: number) => {
     const index = cartMenus.findIndex((cartItem) => cartItem.cartId === id);
@@ -31,48 +31,52 @@ const CartItem = ({ item, idx }: { item: cartDto, idx:number }) => {
 
   return (
     <div className="flex justify-between px-3 items-center w-full h-12">
-      <div className="flex gap-1 items-center">
-        <span className="w-5 flex justify-start text-center font-semibold font-[Pretendard]">{idx+1}.</span>
-        {item.isHot ? (
-          <span className="text-center font-semibold font-[Pretendard] text-red-400 dark:text-red-500">
-            핫
+      <div className="flex flex-col md:flex-row gap-0 md:gap-1 ">
+        <div className="flex items-center">
+          <span className="w-5 flex justify-start text-center font-semibold font-[Pretendard]">
+            {idx + 1}.
           </span>
-        ) : (
-          <span className="text-center font-semibold font-[Pretendard] text-blue-400 dark:text-blue-300">
-            아이스
+          {item.isHot ? (
+            <span className="text-center font-semibold font-[Pretendard] text-red-400 dark:text-red-500">
+              핫
+            </span>
+          ) : (
+            <span className="text-center font-semibold font-[Pretendard] text-blue-400 dark:text-blue-300">
+              아이스
+            </span>
+          )}
+          <span className="min-w-[100px] font-[Pretendard] text-lg">
+            {item.menu}
           </span>
-        )}
-        <span className="min-w-[100px] font-[Pretendard] text-lg">
-          {item.menu}
-        </span>
-      </div>
+        </div>
 
-      <div className="flex gap-1">
-        {item.isShot ? (
-          <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
-            샷
-          </span>
-        ) : null}
-        {item.isWhip ? (
-          <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
-            휘핑
-          </span>
-        ) : null}
-        {item.isSyrup ? (
-          <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
-            시럽
-          </span>
-        ) : null}
-        {item.isMilk ? (
-          <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
-            우유
-          </span>
-        ) : null}
-        {item.isPeorl ? (
-          <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
-            펄
-          </span>
-        ) : null}
+        <div className="flex gap-1 justify-start pl-6 md:pl-0">
+          {item.isShot ? (
+            <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
+              샷
+            </span>
+          ) : null}
+          {item.isWhip ? (
+            <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
+              휘핑
+            </span>
+          ) : null}
+          {item.isSyrup ? (
+            <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
+              시럽
+            </span>
+          ) : null}
+          {item.isMilk ? (
+            <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
+              우유
+            </span>
+          ) : null}
+          {item.isPeorl ? (
+            <span className="font-[Pretendard] text-gray-400 dark:text-gray-200">
+              펄
+            </span>
+          ) : null}
+        </div>
       </div>
 
       <div className="w-[120px] flex justify-end items-center gap-3">

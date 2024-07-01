@@ -19,7 +19,7 @@ const CartList = () => {
 
   return (
     <div className="flex flex-col justify-start items-center">
-      <div className={`flex flex-col justify-start items-center w-full min-h-32 max-h-[500px] gap-2 ${cartItems.length >=15 ? 'overflow-y-scroll' :  ''}`} style={{scrollbarWidth : 'thin'}}>
+      <div className={`flex flex-col justify-start items-center w-full min-h-32 max-h-[500px] pt-3 gap-2 ${cartItems.length >=15 ? 'overflow-y-scroll' :  ''}`} style={{scrollbarWidth : 'thin'}}>
         {cartItems.map((item, idx) => {
           return <CartItem key={item.cartId} item={item} idx={idx}></CartItem>;
         })}
