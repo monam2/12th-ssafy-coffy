@@ -1,5 +1,5 @@
 "use client";
-import CryptoJS from "crypto-js";
+
 import { cartState, isOpenCartState } from "@/recoil/cart/atoms";
 import React, { useEffect } from "react";
 import { useRecoilState, useRecoilValue, useSetRecoilState } from "recoil";
@@ -7,6 +7,7 @@ import CartList from "./CartList";
 import { useRouter } from "next/navigation";
 import { totalCartCount, totalCartPrice } from "@/recoil/cart/selector";
 import { userState } from "@/recoil/user/atoms";
+import { checkUser } from "@/lib/checkUser";
 
 const CartModal = () => {
   const router = useRouter();
@@ -25,30 +26,21 @@ const CartModal = () => {
     router.push("/menu/order");
   };
 
-  useEffect(() => {
-    const key = `${process.env.NEXT_PUBLIC_SECRET_KEY}`;
-    const tempName = window.sessionStorage.getItem("name");
-    const tempMmId = window.sessionStorage.getItem("id");
-    const tempClassNum = window.sessionStorage.getItem("class");
+  const decryptUserData = ()=> {
+    const decryptedUser:{decryptedName:string, decryptedMmid:string, decryptedClassNum:string} | null = checkUser();
 
-    if (tempName && tempMmId && tempClassNum) {
-      const decryptedName = CryptoJS.AES.decrypt(tempName, key).toString(
-        CryptoJS.enc.Utf8
-      );
-      const decryptedMmid = CryptoJS.AES.decrypt(tempMmId, key).toString(
-        CryptoJS.enc.Utf8
-      );
-      const decryptedClassNum = CryptoJS.AES.decrypt(
-        tempClassNum,
-        key
-      ).toString(CryptoJS.enc.Utf8);
-
+    if (decryptedUser){
+      const {decryptedName,decryptedMmid,decryptedClassNum} = decryptedUser;
       setUser({
         name: decryptedName,
         mmId: decryptedMmid,
         classNum: +decryptedClassNum,
       });
     }
+  }
+
+  useEffect(() => {
+    decryptUserData();
   }, []);
 
   return (
