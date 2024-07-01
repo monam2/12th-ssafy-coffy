@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: ".",
+  assetPrefix: '.',
   images: {
     remotePatterns: [
       {
