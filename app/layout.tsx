@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "광주캠퍼스에서 커피가 마시고 십허요.",
     images: [
       {
-        url: "https://ssafy-cofy.vercel.app/images/thumbnail.png",
+        url: "https://ssafy-cofy.vercel.app/img/logo/thumbnail.png",
         width: 800,
         height: 600,
         alt: "thumbnail",
