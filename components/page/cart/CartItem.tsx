@@ -31,7 +31,7 @@ const CartItem = ({ item, idx }: { item: cartDto; idx: number }) => {
 
   return (
     <div className="flex justify-between px-3 items-center w-full h-12">
-      <div className="flex flex-col md:flex-row gap-0 md:gap-1 ">
+      <div className="flex flex-col md:flex-row gap-0 md:gap-1 justify-between">
         <div className="flex items-center">
           <span className="w-5 flex justify-start text-center font-semibold font-[Pretendard]">
             {idx + 1}.
