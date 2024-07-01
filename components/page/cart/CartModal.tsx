@@ -67,7 +67,7 @@ const CartModal = () => {
         </div>
         <CartList />
         <div className="flex justify-end gap-4 p-4 border-t">
-          <span className="font-[Pretendard] text-2xl font-semibold text-center mr-2">
+          <span className={`font-[Pretendard] text-2xl font-semibold text-center mr-2 ${!totalCount ? 'hidden' : ''}`}>
             {totalCount}개 {totalPrice.toLocaleString()}원
           </span>
           <button

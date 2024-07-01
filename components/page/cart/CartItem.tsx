@@ -18,7 +18,7 @@ interface cartDto {
   cartId: number;
 }
 
-const CartItem = ({ item }: { item: cartDto }) => {
+const CartItem = ({ item, idx }: { item: cartDto, idx:number }) => {
   const [cartMenus, setCartMenus] = useRecoilState(cartState);
   const removeItemFromCart = (id: number) => {
     const index = cartMenus.findIndex((cartItem) => cartItem.cartId === id);
@@ -32,6 +32,7 @@ const CartItem = ({ item }: { item: cartDto }) => {
   return (
     <div className="flex justify-between px-3 items-center w-full h-12">
       <div className="flex gap-1 items-center">
+        <span className="w-5 flex justify-start text-center font-semibold font-[Pretendard]">{idx+1}.</span>
         {item.isHot ? (
           <span className="text-center font-semibold font-[Pretendard] text-red-400 dark:text-red-500">
             핫

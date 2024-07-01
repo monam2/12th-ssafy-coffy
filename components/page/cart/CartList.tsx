@@ -19,9 +19,9 @@ const CartList = () => {
 
   return (
     <div className="flex flex-col justify-start items-center">
-      <div className="flex flex-col justify-start items-center w-full max-h-[400px] gap-1">
-        {cartItems.map((item) => {
-          return <CartItem key={item.cartId} item={item}></CartItem>;
+      <div className={`flex flex-col justify-start items-center w-full min-h-32 max-h-[500px] gap-2 ${cartItems.length >=15 ? 'overflow-y-scroll' :  ''}`} style={{scrollbarWidth : 'thin'}}>
+        {cartItems.map((item, idx) => {
+          return <CartItem key={item.cartId} item={item} idx={idx}></CartItem>;
         })}
       </div>
     </div>
