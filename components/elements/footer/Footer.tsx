@@ -1,6 +1,4 @@
-"use client";
-
-import { useRouter } from "next/navigation";
+"use client"
 import React from "react";
 import { FaGithub, FaInstagram } from "react-icons/fa";
 import { SiMattermost } from "react-icons/si";
