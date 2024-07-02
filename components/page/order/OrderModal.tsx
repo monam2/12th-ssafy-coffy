@@ -7,6 +7,7 @@ import { userState } from "@/recoil/user/atoms";
 import { useRouter } from "next/navigation";
 import React, { Dispatch, SetStateAction, useState } from "react";
 import { useRecoilValue } from "recoil";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 interface OrderModalProps {
   setIsOpenPayModal: Dispatch<SetStateAction<boolean>>;
@@ -36,7 +37,7 @@ interface orderDto {
   user: string;
   createdAt?: Date;
   menus: cartDto[];
-  totalPrice : number;
+  totalPrice: number;
 }
 
 const OrderModal: React.FC<OrderModalProps> = ({
@@ -50,7 +51,7 @@ const OrderModal: React.FC<OrderModalProps> = ({
   const { name, mmId, classNum } = useRecoilValue(userState);
   const totalPrice = useRecoilValue(totalCartPrice);
 
-  const makeOrderToDB = ()=>{
+  const makeOrderToDB = () => {
     const order: orderDto = {
       orderId: uuidv4(),
       totalPrice,
@@ -60,10 +61,10 @@ const OrderModal: React.FC<OrderModalProps> = ({
       menus: cartItems,
     };
     postOrder(order);
-  }
+  };
 
   const pushListHandler = () => {
-    setIsOpenPayModal(false)
+    setIsOpenPayModal(false);
     router.push("/list");
   };
 
@@ -99,7 +100,17 @@ const OrderModal: React.FC<OrderModalProps> = ({
               {process.env.NEXT_PUBLIC_BANK_USER}
             </span>
             {!isCopied ? (
-              <button onClick={()=>setIsCopied(true)} className="mb-4 bg-gray-200 dark:bg-gray-400 p-1 hover:bg-gray-300 hover:transition-all transition-all rounded-md text-center font-[Pretendard]">복사하기</button>
+              <CopyToClipboard
+              text={`${process.env.NEXT_PUBLIC_BANK_ACCOUNT}`}
+              onCopy={() => alert("계좌번호가 복사되었습니다.")}
+            >
+              <button
+                onClick={() => setIsCopied(true)}
+                className="mb-4 bg-gray-200 dark:bg-gray-400 p-1 hover:bg-gray-300 hover:transition-all transition-all rounded-md text-center font-[Pretendard]"
+              >
+                복사하기
+              </button>
+              </CopyToClipboard>
             ) : (
               <span className="m-5 text-gray-400 text-sm text-center font-semibold">
                 클립보드에 복사했습니다.
@@ -116,6 +127,15 @@ const OrderModal: React.FC<OrderModalProps> = ({
                 반드시 송금해주세요!
               </span>
             </div>
+            <span className="font-[Pretendard] dark:text-gray-200 text-gray-500 flex justify-center items-center text-base text-center">
+              송금에 실패했다면
+            </span>
+            <span className="font-[Pretendard] dark:text-gray-200 text-gray-500 mb-3 flex justify-center items-center text-base text-center">
+              반드시 MM 보내주세요.
+            </span>
+            <span className="font-[Pretendard] dark:text-gray-200 text-gray-500 mb-3 flex justify-center items-center text-xl font-bold text-center">
+              주문이 누락됩니다!
+            </span>
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 pb-5">
               <button
                 onClick={() => pushAcountHandler()}
@@ -132,15 +152,6 @@ const OrderModal: React.FC<OrderModalProps> = ({
                 <span className="font-md">(모바일만)</span>
               </button>
             </div>
-            <span className="font-[Pretendard] dark:text-gray-200 text-gray-500 flex justify-center items-center text-base text-center">
-              송금에 실패했다면
-            </span>
-            <span className="font-[Pretendard] dark:text-gray-200 text-gray-500 mb-3 flex justify-center items-center text-base text-center">
-              반드시 MM 보내주세요.
-            </span>
-            <span className="font-[Pretendard] dark:text-gray-200 text-gray-500 mb-3 flex justify-center items-center text-xl font-bold text-center">
-              주문이 누락됩니다!
-            </span>
           </>
         )}
 
@@ -156,13 +167,13 @@ const OrderModal: React.FC<OrderModalProps> = ({
         ) : (
           <div className="flex items-center justify-around gap-4 p-4 mt-3 border-t">
             <span className="m-5 text-gray-400 font-[Pretendard] dark:text-gray-200 text-sm text-center">
-                반드시 송금 후 클릭하세요!
-              </span>
+              반드시 송금 후 클릭하세요!
+            </span>
             <button
               onClick={() => pushListHandler()}
               className="bg-blue-400 font-[Pretendard] h-8 text-white px-2 rounded hover:bg-blue-600"
             >
-              주문 내역
+              송금 완료
             </button>
           </div>
         )}
