@@ -24,7 +24,6 @@ const postOrder = async (order) => {
         isPayed : false,
       };
         await setDoc(doc(db, "orderList", order.orderId), orderWithTimestamp);
-        console.log("Document written");
       } catch (e) {
         console.error("Error adding document: ", e);
       }
