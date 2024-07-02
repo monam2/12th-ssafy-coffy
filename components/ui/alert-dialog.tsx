@@ -74,13 +74,13 @@ export function CustomAlertDialog({
         onClick={() => setOpen(false)}
       />
       <AlertDialogContent
-        className="fixed top-1/2 left-1/2 w-[400px] p-6 bg-white rounded-lg shadow-lg transform -translate-x-1/2 -translate-y-1/2"
+        className="fixed top-1/2 left-1/2 w-[400px] p-6 bg-white dark:bg-gray-500 rounded-lg shadow-lg transform -translate-x-1/2 -translate-y-1/2"
         onClick={(e) => e.stopPropagation()} // Prevent click from closing the dialog when clicking inside the content
       >
-        <AlertDialogTitle className="text-lg font-bold">
+        <AlertDialogTitle className="text-lg font-bold dark:text-white">
           {classNumber}반 {name}님이 맞으신가요?
         </AlertDialogTitle>
-        <AlertDialogDescription className="mt-2 text-base">
+        <AlertDialogDescription className="mt-2 text-base dark:text-white">
           주문 오류 방지를 위해 다시 한 번 확인해주세요!
         </AlertDialogDescription>
         <div className="flex justify-end mt-4 gap-4">
