@@ -21,6 +21,7 @@ const postOrder = async (order) => {
       const orderWithTimestamp = {
         ...order,
         createdAt: new Date(),
+        isPayed : false,
       };
         await setDoc(doc(db, "orderList", order.orderId), orderWithTimestamp);
         console.log("Document written");
