@@ -26,7 +26,7 @@ const LogoBox = () => {
         alt="logo"
       />
       <span className="text-2xl font-[Moyamoya] text-center my-auto">
-        삽히코히
+        싸피코피
       </span>
     </div>
   );
