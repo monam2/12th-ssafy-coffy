@@ -46,7 +46,7 @@ const Page = () => {
   const [isOrdered, setIsOrdered] = useState(false);
 
   const onClickHandler = () => {
-    window.open(`${process.env.NEXT_PUBLIC_KAKAOPAY_LINK}`);
+    window.location.href = `${process.env.NEXT_PUBLIC_KAKAOPAY_LINK}`;
     setIsLoading(true);
     setTimeout(() => {
       setIsOrdered(true);
