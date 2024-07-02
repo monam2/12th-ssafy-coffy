@@ -4,8 +4,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "삽히코히",
-    template: "%s | 삽히코히",
+    default: "싸피코피",
+    template: "%s | 싸피코피",
   },
   description: "광주캠퍼스에서 커피가 마시고 십허요.",
   icons: {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     apple: "/favicon.ico",
   },
   openGraph: {
-    title: "삽히코히 SSAFY-COFY",
+    title: "싸피코피 SSAFY-COFFY",
     description: "광주캠퍼스에서 커피가 마시고 십허요.",
     images: [
       {
