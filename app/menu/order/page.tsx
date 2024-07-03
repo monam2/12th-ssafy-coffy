@@ -2,16 +2,32 @@
 import CartList from "@/components/page/cart/CartList";
 import { totalCartPrice } from "@/recoil/cart/selector";
 import { userState } from "@/recoil/user/atoms";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useRecoilValue } from "recoil";
 import OrderModal from "@/components/page/order/OrderModal";
+import { checkUser } from "@/lib/checkUser";
 
 const Page = () => {
   const totalPrice = useRecoilValue(totalCartPrice);
-  const { name, mmId, classNum } = useRecoilValue(userState);
-  
-  
+  const [name, setName] = useState("");
+  const [mmId, setMmId] = useState("");
+  const [classNum, setClassNum] = useState(1);
   const [isOpenPayModal, setIsOpenPayModal] = useState(false);  
+
+  const decryptUserData = ()=> {
+    const decryptedUser:{decryptedName:string, decryptedMmid:string, decryptedClassNum:string} | null = checkUser();
+
+    if (decryptedUser){
+      const {decryptedName,decryptedMmid,decryptedClassNum} = decryptedUser;
+      setName(decryptedName);
+      setMmId(decryptedMmid);
+      setClassNum(+decryptedClassNum);
+    }
+  }
+
+  useEffect(()=>{
+    decryptUserData();
+  },[])
 
   return (
     <div className="w-full h-full flex flex-col justify-center items-center gap-8">
