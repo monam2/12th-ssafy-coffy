@@ -5,9 +5,10 @@ import { cartState } from "@/recoil/cart/atoms";
 import { totalCartPrice } from "@/recoil/cart/selector";
 import { userState } from "@/recoil/user/atoms";
 import { useRouter } from "next/navigation";
-import React, { Dispatch, SetStateAction, useState } from "react";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { useRecoilValue } from "recoil";
 import { CopyToClipboard } from "react-copy-to-clipboard";
+import { checkUser } from "@/lib/checkUser";
 
 interface OrderModalProps {
   setIsOpenPayModal: Dispatch<SetStateAction<boolean>>;
@@ -48,7 +49,9 @@ const OrderModal: React.FC<OrderModalProps> = ({
   const [isOrdered, setIsOrdered] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
   const cartItems = useRecoilValue(cartState);
-  const { name, mmId, classNum } = useRecoilValue(userState);
+  const [name, setName] = useState("");
+  const [mmId, setMmId] = useState("");
+  const [classNum, setClassNum] = useState(1);
   const totalPrice = useRecoilValue(totalCartPrice);
 
   const makeOrderToDB = () => {
@@ -78,6 +81,21 @@ const OrderModal: React.FC<OrderModalProps> = ({
     window.open(`${process.env.NEXT_PUBLIC_KAKAOPAY_LINK}`);
     router.push("/list");
   };
+
+  const decryptUserData = ()=> {
+    const decryptedUser:{decryptedName:string, decryptedMmid:string, decryptedClassNum:string} | null = checkUser();
+
+    if (decryptedUser){
+      const {decryptedName,decryptedMmid,decryptedClassNum} = decryptedUser;
+      setName(decryptedName);
+      setMmId(decryptedMmid);
+      setClassNum(+decryptedClassNum);
+    }
+  }
+
+  useEffect(()=>{
+    decryptUserData();
+  },[])
 
   return (
     <div
@@ -141,16 +159,15 @@ const OrderModal: React.FC<OrderModalProps> = ({
                 onClick={() => pushAcountHandler()}
                 className="w-[200px] font-[Pretendard] h-[50px]  font-semibold rounded-3xl bg-blue-400 text-gray-200"
               >
-                <span className="mr-1">계좌 송금</span>
-                <span className="font-md">(PC/모바일)</span>
+                <span className="mr-1">계좌 송금(주문)</span>
               </button>
-              <button
+              {/* <button
                 onClick={() => pushKaKaoHandler()}
                 className="w-[200px] font-[Pretendard] h-[50px]  font-semibold rounded-3xl bg-[#FEE500] text-gray-600"
               >
                 <span className="mr-1">카카오페이</span>
                 <span className="font-md">(모바일만)</span>
-              </button>
+              </button> */}
             </div>
           </>
         )}
