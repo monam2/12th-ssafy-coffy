@@ -3,15 +3,17 @@ import CartList from "@/components/page/cart/CartList";
 import { totalCartPrice } from "@/recoil/cart/selector";
 import { userState } from "@/recoil/user/atoms";
 import React, { useEffect, useState } from "react";
-import { useRecoilValue } from "recoil";
+import { useRecoilState, useRecoilValue } from "recoil";
 import OrderModal from "@/components/page/order/OrderModal";
 import { checkUser } from "@/lib/checkUser";
+import { cartState } from "@/recoil/cart/atoms";
 
 const Page = () => {
   const totalPrice = useRecoilValue(totalCartPrice);
   const [name, setName] = useState("");
   const [mmId, setMmId] = useState("");
   const [classNum, setClassNum] = useState(1);
+  const [cartData, setCartData] = useRecoilState(cartState);
   const [isOpenPayModal, setIsOpenPayModal] = useState(false);  
 
   const decryptUserData = ()=> {

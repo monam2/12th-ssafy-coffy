@@ -1,13 +1,30 @@
 "use client";
 import { cartState } from "@/recoil/cart/atoms";
-import React from "react";
+import React, { useEffect } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { totalCartCount, totalCartPrice } from "@/recoil/cart/selector";
 import CartItem from "./CartItem";
+import { getCartDataAtSession, setCartDataAtSession } from "@/lib/checkCart";
 
 const CartList = () => {
   const [cartMenus, setCartMenus] = useRecoilState(cartState);
-  const cartItems = useRecoilValue(cartState);
+
+  const cartDataHandler=()=> {
+    if (cartMenus.length) {
+      setCartDataAtSession(cartMenus);
+      return;
+    }
+
+    const cartMenusAtSession = getCartDataAtSession();
+    if (cartMenusAtSession) {
+      setCartMenus(cartMenusAtSession);
+      return;
+    }
+  }
+
+  useEffect(()=>{
+    cartDataHandler();
+  },[])
 
   if (!cartMenus.length) {
     return (
@@ -19,8 +36,8 @@ const CartList = () => {
 
   return (
     <div className="flex flex-col justify-start items-center">
-      <div className={`flex flex-col justify-start items-center w-full min-h-32 max-h-[500px] pt-3 gap-2 ${cartItems.length >=15 ? 'overflow-y-scroll' :  ''}`} style={{scrollbarWidth : 'thin'}}>
-        {cartItems.map((item, idx) => {
+      <div className={`flex flex-col justify-start items-center w-full min-h-32 max-h-[500px] pt-3 gap-2 ${cartMenus.length >=15 ? 'overflow-y-scroll' :  ''}`} style={{scrollbarWidth : 'thin'}}>
+        {cartMenus.map((item, idx) => {
           return <CartItem key={item.cartId} item={item} idx={idx}></CartItem>;
         })}
       </div>
