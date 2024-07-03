@@ -1,8 +1,8 @@
-import { cartState } from "@/recoil/cart/atoms";
+import { useRouter } from "next/navigation";
 import React from "react";
-import { useRecoilState } from "recoil";
+import { setCartDataAtSession } from "@/lib/checkCart";
 
-interface cartDto {
+interface CartDto {
   id: number;
   category: string;
   menu: string;
@@ -18,14 +18,20 @@ interface cartDto {
   cartId: number;
 }
 
-const CartItem = ({ item, idx }: { item: cartDto; idx: number }) => {
-  const [cartMenus, setCartMenus] = useRecoilState(cartState);
+const CartItem = ({ item, idx, setCartMenus, cartMenus }: { item: CartDto; idx: number, setCartMenus: (value: CartDto[]) => void, cartMenus: CartDto[] }) => {
+  const router = useRouter();
+
   const removeItemFromCart = (id: number) => {
     const index = cartMenus.findIndex((cartItem) => cartItem.cartId === id);
     if (index !== -1) {
       const newCartMenus = [...cartMenus];
       newCartMenus.splice(index, 1);
       setCartMenus(newCartMenus);
+      if (newCartMenus.length > 0) {
+        setCartDataAtSession(newCartMenus);
+      } else {
+        window.sessionStorage.removeItem('cart');
+      }
     }
   };
 
@@ -95,5 +101,3 @@ const CartItem = ({ item, idx }: { item: cartDto; idx: number }) => {
 };
 
 export default CartItem;
-
-// {item.menu} {count} 개 {item.price * count}원
