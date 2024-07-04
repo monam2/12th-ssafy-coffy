@@ -11,13 +11,21 @@
     {
       "id": 1,
       "category": "coffee",
+      "menu": "아메리카노(연하게)",
+      "onlyIce": false,
+      "price": 1500,
+      "img": "https://composecoffee.com/files/thumbnails/451/038/384x530.crop.jpg?t=1708913708"
+    },
+    {
+      "id": 2,
+      "category": "coffee",
       "menu": "카페라떼",
       "onlyIce": false,
       "price": 2900,
       "img": "https://composecoffee.com/files/thumbnails/459/038/384x530.crop.jpg?t=1708913733"
     },
     {
-      "id": 2,
+      "id": 3,
       "category": "coffee",
       "menu": "카푸치노",
       "onlyIce": false,
@@ -25,7 +33,7 @@
       "img": "https://composecoffee.com/files/thumbnails/214/384x530.crop.jpg?t=1708913746"
     },
     {
-      "id": 3,
+      "id": 4,
       "category": "coffee",
       "menu": "바닐라라떼",
       "onlyIce": false,
@@ -33,7 +41,7 @@
       "img": "https://composecoffee.com/files/thumbnails/593/038/384x530.crop.jpg?t=1708913773"
     },
     {
-      "id": 4,
+      "id": 5,
       "category": "coffee",
       "menu": "헤이즐넛라떼",
       "onlyIce": false,
@@ -41,7 +49,7 @@
       "img": "https://composecoffee.com/files/thumbnails/602/038/384x530.crop.jpg?t=1708913803"
     },
     {
-      "id": 5,
+      "id": 6,
       "category": "coffee",
       "menu": "카라멜마끼아또",
       "onlyIce": false,
@@ -49,7 +57,7 @@
       "img": "https://composecoffee.com/files/thumbnails/619/038/384x530.crop.jpg?t=1715054230"
     },
     {
-      "id": 6,
+      "id": 7,
       "category": "coffee",
       "menu": "카페모카",
       "onlyIce": false,
@@ -57,7 +65,7 @@
       "img": "https://composecoffee.com/files/thumbnails/609/038/384x530.crop.jpg?t=1715054554"
     },
     {
-      "id": 7,
+      "id": 8,
       "category": "coffee",
       "menu": "돌체라떼",
       "onlyIce": false,
@@ -65,7 +73,7 @@
       "img": "https://composecoffee.com/files/thumbnails/623/038/384x530.crop.jpg?t=1708913892"
     },
     {
-      "id": 8,
+      "id": 9,
       "category": "coffee",
       "menu": "흑당카페라떼",
       "onlyIce": true,
@@ -73,7 +81,7 @@
       "img": "https://composecoffee.com/files/thumbnails/227/384x530.crop.jpg?t=1708913903"
     },
     {
-      "id": 9,
+      "id": 10,
       "category": "coffee",
       "menu": "달고나라떼",
       "onlyIce": true,
@@ -81,7 +89,7 @@
       "img": "https://composecoffee.com/files/thumbnails/665/034/384x530.crop.jpg?t=1708913918"
     },
     {
-      "id": 10,
+      "id": 11,
       "category": "coffee",
       "menu": "아인슈페너라떼",
       "onlyIce": true,
@@ -89,7 +97,7 @@
       "img": "https://composecoffee.com/files/thumbnails/229/384x530.crop.jpg?t=1708913930"
     },
     {
-      "id": 11,
+      "id": 12,
       "category": "coffee",
       "menu": "에스프레소",
       "onlyIce": false,
@@ -97,7 +105,7 @@
       "img": "https://composecoffee.com/files/thumbnails/208/384x530.crop.jpg?t=1715053862"
     },
     {
-      "id": 12,
+      "id": 13,
       "category": "dutchcoffee",
       "menu": "더치커피",
       "onlyIce": false,
@@ -105,7 +113,7 @@
       "img": "https://composecoffee.com/files/thumbnails/627/038/384x530.crop.jpg?t=1705459846"
     },
     {
-      "id": 13,
+      "id": 14,
       "category": "dutchcoffee",
       "menu": "더치라떼",
       "onlyIce": false,
@@ -113,7 +121,7 @@
       "img": "https://composecoffee.com/files/thumbnails/633/038/384x530.crop.jpg?t=1705459962"
     },
     {
-      "id": 14,
+      "id": 15,
       "category": "dutchcoffee",
       "menu": "아인슈페너",
       "onlyIce": true,
@@ -121,7 +129,7 @@
       "img": "https://composecoffee.com/files/thumbnails/241/384x530.crop.jpg?t=1709613789"
     },
     {
-      "id": 15,
+      "id": 16,
       "category": "beverage",
       "menu": "곡물라떼",
       "onlyIce": false,
@@ -129,7 +137,7 @@
       "img": "https://composecoffee.com/files/thumbnails/750/038/384x530.crop.jpg?t=1715054885"
     },
     {
-      "id": 16,
+      "id": 17,
       "category": "beverage",
       "menu": "고구마라떼",
       "onlyIce": false,
@@ -137,7 +145,7 @@
       "img": "https://composecoffee.com/files/thumbnails/734/038/384x530.crop.jpg?t=1705467727"
     },
     {
-      "id": 17,
+      "id": 18,
       "category": "beverage",
       "menu": "더블초코라떼",
       "onlyIce": false,
@@ -145,7 +153,7 @@
       "img": "https://composecoffee.com/files/thumbnails/724/038/384x530.crop.jpg?t=1705464258"
     },
     {
-      "id": 18,
+      "id": 19,
       "category": "beverage",
       "menu": "쿠키초코라떼",
       "onlyIce": false,
@@ -153,7 +161,7 @@
       "img": "https://composecoffee.com/files/thumbnails/730/038/384x530.crop.jpg?t=1715053706"
     },
     {
-      "id": 19,
+      "id": 20,
       "category": "beverage",
       "menu": "그린티라떼",
       "onlyIce": false,
@@ -161,7 +169,7 @@
       "img": "https://composecoffee.com/files/thumbnails/742/038/384x530.crop.jpg?t=1705467755"
     },
     {
-      "id": 20,
+      "id": 21,
       "category": "beverage",
       "menu": "민트초코오레오라떼",
       "onlyIce": false,
@@ -169,7 +177,7 @@
       "img": "https://composecoffee.com/files/thumbnails/746/038/384x530.crop.jpg?t=1705464405"
     },
     {
-      "id": 21,
+      "id": 22,
       "category": "beverage",
       "menu": "흑당밀크티",
       "onlyIce": true,
@@ -177,7 +185,7 @@
       "img": "https://composecoffee.com/files/thumbnails/255/384x530.crop.jpg?t=1715055007"
     },
     {
-      "id": 22,
+      "id": 23,
       "category": "beverage",
       "menu": "딸기 후르츠라떼",
       "onlyIce": true,
@@ -185,7 +193,7 @@
       "img": "https://composecoffee.com/files/thumbnails/755/012/384x530.crop.jpg?t=1715055067"
     },
     {
-      "id": 23,
+      "id": 24,
       "category": "beverage",
       "menu": "망고 후르츠라떼",
       "onlyIce": true,
@@ -193,7 +201,7 @@
       "img": "https://composecoffee.com/files/thumbnails/887/064/384x530.crop.jpg?t=1705464497"
     },
     {
-      "id": 24,
+      "id": 25,
       "category": "beverage",
       "menu": "블루베리 후르츠라떼",
       "onlyIce": true,
@@ -201,7 +209,7 @@
       "img": "https://composecoffee.com/files/thumbnails/891/064/384x530.crop.jpg?t=1705464480"
     },
     {
-      "id": 25,
+      "id": 26,
       "category": "beverage",
       "menu": "밀크티",
       "onlyIce": false,
@@ -209,7 +217,7 @@
       "img": "https://composecoffee.com/files/thumbnails/738/038/384x530.crop.jpg?t=1705467798"
     },
     {
-      "id": 26,
+      "id": 27,
       "category": "juice",
       "menu": "키위주스",
       "onlyIce": true,
@@ -217,7 +225,7 @@
       "img": "https://composecoffee.com/files/thumbnails/485/018/384x530.crop.jpg?t=1705464777"
     },
     {
-      "id": 27,
+      "id": 28,
       "category": "juice",
       "menu": "복숭아주스",
       "onlyIce": true,
@@ -225,7 +233,7 @@
       "img": "https://composecoffee.com/files/thumbnails/487/018/384x530.crop.jpg?t=1705464752"
     },
     {
-      "id": 28,
+      "id": 29,
       "category": "juice",
       "menu": "오렌지당근주스",
       "onlyIce": true,
@@ -233,7 +241,7 @@
       "img": "https://composecoffee.com/files/thumbnails/491/018/384x530.crop.jpg?t=1705464798"
     },
     {
-      "id": 29,
+      "id": 30,
       "category": "juice",
       "menu": "샤인머스켓웨일주스",
       "onlyIce": true,
@@ -241,7 +249,7 @@
       "img": "https://composecoffee.com/files/thumbnails/489/018/384x530.crop.jpg?t=1719541117"
     },
     {
-      "id": 30,
+      "id": 31,
       "category": "smoothie",
       "menu": "딸기 스무디",
       "onlyIce": true,
@@ -249,7 +257,7 @@
       "img": "https://composecoffee.com/files/thumbnails/267/384x530.crop.jpg?t=1705464900"
     },
     {
-      "id": 31,
+      "id": 32,
       "category": "smoothie",
       "menu": "망고 스무디",
       "onlyIce": true,
@@ -257,7 +265,7 @@
       "img": "https://composecoffee.com/files/thumbnails/269/384x530.crop.jpg?t=1705464919"
     },
     {
-      "id": 32,
+      "id": 33,
       "category": "smoothie",
       "menu": "블루베리 스무디",
       "onlyIce": true,
@@ -265,7 +273,7 @@
       "img": "https://composecoffee.com/files/thumbnails/271/384x530.crop.jpg?t=1705464936"
     },
     {
-      "id": 33,
+      "id": 34,
       "category": "smoothie",
       "menu": "유자 스무디",
       "onlyIce": true,
@@ -273,7 +281,7 @@
       "img": "https://composecoffee.com/files/thumbnails/480/018/384x530.crop.jpg?t=1705464962"
     },
     {
-      "id": 34,
+      "id": 35,
       "category": "smoothie",
       "menu": "딸기 요거트스무디",
       "onlyIce": true,
@@ -281,7 +289,7 @@
       "img": "https://composecoffee.com/files/thumbnails/273/384x530.crop.jpg?t=1705465012"
     },
     {
-      "id": 35,
+      "id": 36,
       "category": "smoothie",
       "menu": "플레인 요거트스무디",
       "onlyIce": true,
@@ -289,7 +297,7 @@
       "img": "https://composecoffee.com/files/thumbnails/279/384x530.crop.jpg?t=1705464979"
     },
     {
-      "id": 36,
+      "id": 37,
       "category": "smoothie",
       "menu": "블루베리 요거트스무디",
       "onlyIce": true,
@@ -297,7 +305,7 @@
       "img": "https://composecoffee.com/files/thumbnails/079/072/384x530.crop.jpg?t=1705464995"
     },
     {
-      "id": 37,
+      "id": 38,
       "category": "smoothie",
       "menu": "망고 요거트스무디",
       "onlyIce": true,
@@ -305,7 +313,7 @@
       "img": "https://composecoffee.com/files/thumbnails/275/384x530.crop.jpg?t=1705465027"
     },
     {
-      "id": 38,
+      "id": 39,
       "category": "ade",
       "menu": "자몽 에이드",
       "onlyIce": true,
@@ -313,7 +321,7 @@
       "img": "https://composecoffee.com/files/thumbnails/281/384x530.crop.jpg?t=1705465752"
     },
     {
-      "id": 39,
+      "id": 40,
       "category": "ade",
       "menu": "레몬 에이드",
       "onlyIce": true,
@@ -321,7 +329,7 @@
       "img": "https://composecoffee.com/files/thumbnails/283/384x530.crop.jpg?t=1705465774"
     },
     {
-      "id": 40,
+      "id": 41,
       "category": "ade",
       "menu": "유자 에이드",
       "onlyIce": true,
@@ -329,7 +337,7 @@
       "img": "https://composecoffee.com/files/thumbnails/287/384x530.crop.jpg?t=1705465811"
     },
     {
-      "id": 41,
+      "id": 42,
       "category": "ade",
       "menu": "블루레몬 스페셜에이드",
       "onlyIce": true,
@@ -337,7 +345,7 @@
       "img": "https://composecoffee.com/files/thumbnails/289/384x530.crop.jpg?t=1705465702"
     },
     {
-      "id": 42,
+      "id": 43,
       "category": "ade",
       "menu": "청포도 스페셜에이드",
       "onlyIce": true,
@@ -345,7 +353,7 @@
       "img": "https://composecoffee.com/files/thumbnails/291/384x530.crop.jpg?t=1705465718"
     },
     {
-      "id": 43,
+      "id": 44,
       "category": "ade",
       "menu": "패션후르츠 스페셜에이드",
       "onlyIce": true,
@@ -353,7 +361,7 @@
       "img": "https://composecoffee.com/files/thumbnails/293/384x530.crop.jpg?t=1705465735"
     },
     {
-      "id": 44,
+      "id": 45,
       "category": "tea",
       "menu": "페퍼민트",
       "onlyIce": false,
@@ -361,7 +369,7 @@
       "img": "https://composecoffee.com/files/thumbnails/797/038/384x530.crop.jpg?t=1705465243"
     },
     {
-      "id": 45,
+      "id": 46,
       "category": "tea",
       "menu": "캐모마일",
       "onlyIce": false,
@@ -369,7 +377,7 @@
       "img": "https://composecoffee.com/files/thumbnails/795/038/384x530.crop.jpg?t=1705465284"
     },
     {
-      "id": 46,
+      "id": 47,
       "category": "tea",
       "menu": "로즈마리",
       "onlyIce": false,
@@ -377,7 +385,7 @@
       "img": "https://composecoffee.com/files/thumbnails/793/038/384x530.crop.jpg?t=1705465327"
     },
     {
-      "id": 47,
+      "id": 48,
       "category": "tea",
       "menu": "얼그레이",
       "onlyIce": false,
@@ -385,7 +393,7 @@
       "img": "https://composecoffee.com/files/thumbnails/791/038/384x530.crop.jpg?t=1705465387"
     },
     {
-      "id": 48,
+      "id": 49,
       "category": "tea",
       "menu": "블랙퍼스트",
       "onlyIce": false,
@@ -393,7 +401,7 @@
       "img": "https://composecoffee.com/files/thumbnails/789/038/384x530.crop.jpg?t=1705465455"
     },
     {
-      "id": 49,
+      "id": 50,
       "category": "tea",
       "menu": "자몽 과일티",
       "onlyIce": false,
@@ -401,7 +409,7 @@
       "img": "https://composecoffee.com/files/thumbnails/678/038/384x530.crop.jpg?t=1705465504"
     },
     {
-      "id": 50,
+      "id": 51,
       "category": "tea",
       "menu": "레몬 과일티",
       "onlyIce": false,
@@ -409,7 +417,7 @@
       "img": "https://composecoffee.com/files/thumbnails/680/038/384x530.crop.jpg?t=1705465544"
     },
     {
-      "id": 51,
+      "id": 52,
       "category": "tea",
       "menu": "유자 과일티",
       "onlyIce": false,
@@ -417,7 +425,7 @@
       "img": "https://composecoffee.com/files/thumbnails/682/038/384x530.crop.jpg?t=1705465592"
     },
     {
-      "id": 52,
+      "id": 53,
       "category": "tea",
       "menu": "복숭아티",
       "onlyIce": true,
@@ -425,7 +433,7 @@
       "img": "https://composecoffee.com/files/thumbnails/672/038/384x530.crop.jpg?t=1705465141"
     },
     {
-      "id": 53,
+      "id": 54,
       "category": "tea",
       "menu": "자몽허니블랙티",
       "onlyIce": true,
@@ -433,7 +441,7 @@
       "img": "https://composecoffee.com/files/thumbnails/676/038/384x530.crop.jpg?t=1705465189"
     },
     {
-      "id": 54,
+      "id": 55,
       "category": "frappe",
       "menu": "리얼초코자바칩 프라페",
       "onlyIce": true,
@@ -441,7 +449,7 @@
       "img": "https://composecoffee.com/files/thumbnails/315/384x530.crop.jpg?t=1705465925"
     },
     {
-      "id": 55,
+      "id": 56,
       "category": "frappe",
       "menu": "쿠키초코 프라페",
       "onlyIce": true,
@@ -449,7 +457,7 @@
       "img": "https://composecoffee.com/files/thumbnails/317/384x530.crop.jpg?t=1705465942"
     },
     {
-      "id": 56,
+      "id": 57,
       "category": "frappe",
       "menu": "민트초코오레오 프라페",
       "onlyIce": true,
@@ -457,7 +465,7 @@
       "img": "https://composecoffee.com/files/thumbnails/319/384x530.crop.jpg?t=1705465958"
     },
     {
-      "id": 57,
+      "id": 58,
       "category": "frappe",
       "menu": "그린티 프라페",
       "onlyIce": true,
@@ -465,7 +473,7 @@
       "img": "https://composecoffee.com/files/thumbnails/321/384x530.crop.jpg?t=1705465978"
     },
     {
-      "id": 58,
+      "id": 59,
       "category": "frappe",
       "menu": "모카자바칩 프라페",
       "onlyIce": true,
@@ -473,7 +481,7 @@
       "img": "https://composecoffee.com/files/thumbnails/235/384x530.crop.jpg?t=1705468639"
     },
     {
-      "id": 59,
+      "id": 60,
       "category": "milkshake",
       "menu": "플레인밀크쉐이크",
       "onlyIce": true,
@@ -481,7 +489,7 @@
       "img": "https://composecoffee.com/files/thumbnails/323/384x530.crop.jpg?t=1705466337"
     },
     {
-      "id": 60,
+      "id": 61,
       "category": "milkshake",
       "menu": "캔디소다 밀크쉐이크",
       "onlyIce": true,
@@ -489,7 +497,7 @@
       "img": "https://composecoffee.com/files/thumbnails/896/064/384x530.crop.jpg?t=1705466405"
     },
     {
-      "id": 61,
+      "id": 62,
       "category": "milkshake",
       "menu": "쿠키 밀크쉐이크",
       "onlyIce": true,
@@ -497,7 +505,7 @@
       "img": "https://composecoffee.com/files/thumbnails/327/384x530.crop.jpg?t=1705466423"
     },
     {
-      "id": 62,
+      "id": 63,
       "category": "milkshake",
       "menu": "커피 밀크쉐이크",
       "onlyIce": true,
@@ -505,7 +513,7 @@
       "img": "https://composecoffee.com/files/thumbnails/231/384x530.crop.jpg?t=1707207443"
     },
     {
-      "id": 63,
+      "id": 64,
       "category": "milkshake",
       "menu": "팥절미 밀크쉐이크",
       "onlyIce": true,
@@ -513,7 +521,7 @@
       "img": "https://composecoffee.com/files/thumbnails/325/384x530.crop.jpg?t=1705466468"
     },
     {
-      "id": 64,
+      "id": 65,
       "category": "etc",
       "menu": "콘소메 수프맛 팝콘",
       "onlyIce": false,
@@ -521,7 +529,7 @@
       "img": "https://composecoffee.com/files/thumbnails/666/044/384x530.crop.jpg?t=1705294166"
     },
     {
-      "id": 65,
+      "id": 66,
       "category": "etc",
       "menu": "더블샷 카라멜 팝콘",
       "onlyIce": false,
@@ -529,7 +537,7 @@
       "img": "https://composecoffee.com/files/thumbnails/669/044/384x530.crop.jpg?t=1704357993"
     },
     {
-      "id": 66,
+      "id": 67,
       "category": "etc",
       "menu": "트러플 체다치즈 팝콘",
       "onlyIce": false,
@@ -537,7 +545,7 @@
       "img": "https://composecoffee.com/files/thumbnails/050/064/384x530.crop.jpg?t=1704358078"
     },
     {
-      "id": 67,
+      "id": 68,
       "category": "coffee",
       "menu": "빅포즈 아메리카노(946ml, 4샷)",
       "onlyIce": false,
