@@ -46,7 +46,7 @@ const MenuItem = ({
       item.price +
       (isShot ? 500 : 0) +
       (isWhip ? 500 : 0) +
-      (isSyrup ? 500 : 0) +
+      (isSyrup ? 0 : 0) +
       (isMilk ? 500 : 0) +
       (isPeorl ? 700 : 0);
     return price;
