@@ -18,12 +18,12 @@ export default function Home() {
     router.push("/menu");
   };
 
-  useEffect(()=>{
+  useEffect(() => {
     window.sessionStorage.clear();
-  },[])
+  }, [])
 
   return (
-    <div className="flex flex-col justify-center gap-10 items-center h-full">
+    <div className="flex flex-col justify-center gap-1 items-center h-full">
       <Image
         src="/img/logo/logo.png"
         alt="logo"
@@ -41,7 +41,7 @@ export default function Home() {
           className="w-[220px] --point-color text-base font-medium text-center"
           onChange={(event) => setMmId(event.target.value)}
         />
-        <span className="text-sm text-center text-gray-500 mb-5">
+        <span className="text-sm text-center text-gray-500 mb-1">
           (MM프로필 클릭시 보이는 @ID)
         </span>
         <Combobox setClassNumber={setClassNumber} />
