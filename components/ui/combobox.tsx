@@ -11,33 +11,45 @@ import {
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
-import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from "@/components/ui/popover";
 
 const classNumber = [
   {
     value: 1,
-    label: "1반 (211호)",
+    label: "1반 (221호)",
   },
   {
     value: 2,
-    label: "2반 (212호)",
+    label: "2반 (222호)",
   },
-  {
-    value: 3,
-    label: "3반 (213호)",
-  },
-  {
-    value: 4,
-    label: "4반 (214호)",
-  },
-  {
-    value: 5,
-    label: "5반 (215호)",
-  },
-  {
-    value: 6,
-    label: "6반 (216호)",
-  },
+  // {
+  //   value: 1,
+  //   label: "1반 (211호)",
+  // },
+  // {
+  //   value: 2,
+  //   label: "2반 (212호)",
+  // },
+  // {
+  //   value: 3,
+  //   label: "3반 (213호)",
+  // },
+  // {
+  //   value: 4,
+  //   label: "4반 (214호)",
+  // },
+  // {
+  //   value: 5,
+  //   label: "5반 (215호)",
+  // },
+  // {
+  //   value: 6,
+  //   label: "6반 (216호)",
+  // },
 ];
 
 interface ComboboxProps {
