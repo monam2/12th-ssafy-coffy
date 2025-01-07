@@ -6,7 +6,7 @@
       "menu": "아메리카노",
       "onlyIce": false,
       "price": 1500,
-      "img": "https://composecoffee.com/files/thumbnails/451/038/384x530.crop.jpg?t=1708913708"
+      "img": "https://composecoffee.com/files/thumbnails/451/038/1515x2083.crop.jpg?t=1733792262"
     },
     {
       "id": 1,
@@ -14,7 +14,7 @@
       "menu": "아메리카노(연하게)",
       "onlyIce": false,
       "price": 1500,
-      "img": "https://composecoffee.com/files/thumbnails/451/038/384x530.crop.jpg?t=1708913708"
+      "img": "https://composecoffee.com/files/thumbnails/451/038/1515x2083.crop.jpg?t=1733792262"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "menu": "카페라떼",
       "onlyIce": false,
       "price": 2900,
-      "img": "https://composecoffee.com/files/thumbnails/459/038/384x530.crop.jpg?t=1708913733"
+      "img": "https://composecoffee.com/files/thumbnails/459/038/1515x2083.crop.jpg?t=1733792331"
     },
     {
       "id": 3,
@@ -30,7 +30,7 @@
       "menu": "카푸치노",
       "onlyIce": false,
       "price": 2900,
-      "img": "https://composecoffee.com/files/thumbnails/214/384x530.crop.jpg?t=1708913746"
+      "img": "https://composecoffee.com/files/thumbnails/214/1515x2083.crop.jpg?t=1733792372"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "menu": "바닐라라떼",
       "onlyIce": false,
       "price": 3300,
-      "img": "https://composecoffee.com/files/thumbnails/593/038/384x530.crop.jpg?t=1708913773"
+      "img": "https://composecoffee.com/files/thumbnails/593/038/1515x2083.crop.jpg?t=1733792426"
     },
     {
       "id": 5,
@@ -46,7 +46,7 @@
       "menu": "헤이즐넛라떼",
       "onlyIce": false,
       "price": 3300,
-      "img": "https://composecoffee.com/files/thumbnails/602/038/384x530.crop.jpg?t=1708913803"
+      "img": "https://composecoffee.com/files/thumbnails/602/038/1515x2083.crop.jpg?t=1733792488"
     },
     {
       "id": 6,
@@ -54,7 +54,7 @@
       "menu": "카라멜마끼아또",
       "onlyIce": false,
       "price": 3300,
-      "img": "https://composecoffee.com/files/thumbnails/619/038/384x530.crop.jpg?t=1715054230"
+      "img": "https://composecoffee.com/files/thumbnails/619/038/1515x2083.crop.jpg?t=1733792540"
     },
     {
       "id": 7,
@@ -62,7 +62,7 @@
       "menu": "카페모카",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/609/038/384x530.crop.jpg?t=1715054554"
+      "img": "https://composecoffee.com/files/thumbnails/609/038/1515x2083.crop.jpg?t=1733792584"
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "menu": "돌체라떼",
       "onlyIce": false,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/623/038/384x530.crop.jpg?t=1708913892"
+      "img": "https://composecoffee.com/files/thumbnails/623/038/1515x2083.crop.jpg?t=1733792620"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "menu": "흑당카페라떼",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/227/384x530.crop.jpg?t=1708913903"
+      "img": "https://composecoffee.com/files/thumbnails/227/1515x2083.crop.jpg?t=1733792641"
     },
     {
       "id": 10,
@@ -86,7 +86,7 @@
       "menu": "달고나라떼",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/665/034/384x530.crop.jpg?t=1708913918"
+      "img": "https://composecoffee.com/files/thumbnails/665/034/1515x2083.crop.jpg?t=1733792660"
     },
     {
       "id": 11,
@@ -94,7 +94,7 @@
       "menu": "아인슈페너라떼",
       "onlyIce": true,
       "price": 4200,
-      "img": "https://composecoffee.com/files/thumbnails/229/384x530.crop.jpg?t=1708913930"
+      "img": "https://composecoffee.com/files/thumbnails/229/1515x2083.crop.jpg?t=1733792686"
     },
     {
       "id": 12,
@@ -102,7 +102,7 @@
       "menu": "에스프레소",
       "onlyIce": false,
       "price": 1500,
-      "img": "https://composecoffee.com/files/thumbnails/208/384x530.crop.jpg?t=1715053862"
+      "img": "https://composecoffee.com/files/thumbnails/208/1515x2083.crop.jpg?t=1733792158"
     },
     {
       "id": 13,
@@ -110,7 +110,7 @@
       "menu": "더치커피",
       "onlyIce": false,
       "price": 3300,
-      "img": "https://composecoffee.com/files/thumbnails/627/038/384x530.crop.jpg?t=1705459846"
+      "img": "https://composecoffee.com/files/thumbnails/627/038/1515x2083.crop.jpg?t=1733792753"
     },
     {
       "id": 14,
@@ -118,7 +118,7 @@
       "menu": "더치라떼",
       "onlyIce": false,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/633/038/384x530.crop.jpg?t=1705459962"
+      "img": "https://composecoffee.com/files/thumbnails/633/038/1515x2083.crop.jpg?t=1733792865"
     },
     {
       "id": 15,
@@ -126,7 +126,7 @@
       "menu": "아인슈페너",
       "onlyIce": true,
       "price": 4200,
-      "img": "https://composecoffee.com/files/thumbnails/241/384x530.crop.jpg?t=1709613789"
+      "img": "https://composecoffee.com/files/thumbnails/241/1515x2083.crop.jpg?t=1733792903"
     },
     {
       "id": 16,
@@ -134,7 +134,7 @@
       "menu": "곡물라떼",
       "onlyIce": false,
       "price": 3300,
-      "img": "https://composecoffee.com/files/thumbnails/750/038/384x530.crop.jpg?t=1715054885"
+      "img": "https://composecoffee.com/files/thumbnails/750/038/1515x2083.crop.jpg?t=1733793290"
     },
     {
       "id": 17,
@@ -142,7 +142,7 @@
       "menu": "고구마라떼",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/734/038/384x530.crop.jpg?t=1705467727"
+      "img": "https://composecoffee.com/files/thumbnails/734/038/1515x2083.crop.jpg?t=1733793438"
     },
     {
       "id": 18,
@@ -150,7 +150,7 @@
       "menu": "더블초코라떼",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/724/038/384x530.crop.jpg?t=1705464258"
+      "img": "https://composecoffee.com/files/thumbnails/724/038/1515x2083.crop.jpg?t=1733793477"
     },
     {
       "id": 19,
@@ -158,7 +158,7 @@
       "menu": "쿠키초코라떼",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/730/038/384x530.crop.jpg?t=1715053706"
+      "img": "https://composecoffee.com/files/thumbnails/730/038/1515x2083.crop.jpg?t=1733793514"
     },
     {
       "id": 20,
@@ -166,7 +166,7 @@
       "menu": "그린티라떼",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/742/038/384x530.crop.jpg?t=1705467755"
+      "img": "https://composecoffee.com/files/thumbnails/742/038/1515x2083.crop.jpg?t=1733793569"
     },
     {
       "id": 21,
@@ -174,7 +174,7 @@
       "menu": "민트초코오레오라떼",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/746/038/384x530.crop.jpg?t=1705464405"
+      "img": "https://composecoffee.com/files/thumbnails/746/038/1515x2083.crop.jpg?t=1733793601"
     },
     {
       "id": 22,
@@ -182,31 +182,31 @@
       "menu": "흑당밀크티",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/255/384x530.crop.jpg?t=1715055007"
+      "img": "https://composecoffee.com/files/thumbnails/255/1515x2083.crop.jpg?t=1733793634"
     },
     {
       "id": 23,
       "category": "beverage",
-      "menu": "딸기 후르츠라떼",
+      "menu": "딸기라떼",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/755/012/384x530.crop.jpg?t=1715055067"
+      "img": "https://composecoffee.com/files/thumbnails/755/012/1515x2083.crop.jpg?t=1733793651"
     },
     {
       "id": 24,
       "category": "beverage",
-      "menu": "망고 후르츠라떼",
+      "menu": "망고라떼",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/887/064/384x530.crop.jpg?t=1705464497"
+      "img": "https://composecoffee.com/files/thumbnails/887/064/1515x2083.crop.jpg?t=1733793683"
     },
     {
       "id": 25,
       "category": "beverage",
-      "menu": "블루베리 후르츠라떼",
+      "menu": "블루베리라떼",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/891/064/384x530.crop.jpg?t=1705464480"
+      "img": "https://composecoffee.com/files/thumbnails/891/064/1515x2083.crop.jpg?t=1733793666"
     },
     {
       "id": 26,
@@ -214,7 +214,7 @@
       "menu": "밀크티",
       "onlyIce": false,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/738/038/384x530.crop.jpg?t=1705467798"
+      "img": "https://composecoffee.com/files/thumbnails/738/038/1515x2083.crop.jpg?t=1733793716"
     },
     {
       "id": 27,
@@ -222,7 +222,7 @@
       "menu": "키위주스",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/485/018/384x530.crop.jpg?t=1705464777"
+      "img": "https://composecoffee.com/files/thumbnails/485/018/1515x2083.crop.jpg?t=1733794330"
     },
     {
       "id": 28,
@@ -230,7 +230,7 @@
       "menu": "복숭아주스",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/487/018/384x530.crop.jpg?t=1705464752"
+      "img": "https://composecoffee.com/files/thumbnails/487/018/1515x2083.crop.jpg?t=1733794313"
     },
     {
       "id": 29,
@@ -238,7 +238,7 @@
       "menu": "오렌지당근주스",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/491/018/384x530.crop.jpg?t=1705464798"
+      "img": "https://composecoffee.com/files/thumbnails/491/018/1515x2083.crop.jpg?t=1733794348"
     },
     {
       "id": 30,
@@ -246,7 +246,7 @@
       "menu": "샤인머스켓웨일주스",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/489/018/384x530.crop.jpg?t=1719541117"
+      "img": "https://composecoffee.com/files/thumbnails/489/018/1515x2083.crop.jpg?t=1733794365"
     },
     {
       "id": 31,
@@ -254,7 +254,7 @@
       "menu": "딸기 스무디",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/267/384x530.crop.jpg?t=1705464900"
+      "img": "https://composecoffee.com/files/thumbnails/267/1515x2083.crop.jpg?t=1733793856"
     },
     {
       "id": 32,
@@ -262,7 +262,7 @@
       "menu": "망고 스무디",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/269/384x530.crop.jpg?t=1705464919"
+      "img": "https://composecoffee.com/files/thumbnails/269/1515x2083.crop.jpg?t=1733794106"
     },
     {
       "id": 33,
@@ -270,7 +270,7 @@
       "menu": "블루베리 스무디",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/271/384x530.crop.jpg?t=1705464936"
+      "img": "https://composecoffee.com/files/thumbnails/271/1515x2083.crop.jpg?t=1733793886"
     },
     {
       "id": 34,
@@ -278,7 +278,7 @@
       "menu": "유자 스무디",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/480/018/384x530.crop.jpg?t=1705464962"
+      "img": "https://composecoffee.com/files/thumbnails/480/018/1515x2083.crop.jpg?t=1733793904"
     },
     {
       "id": 35,
@@ -286,7 +286,7 @@
       "menu": "딸기 요거트스무디",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/273/384x530.crop.jpg?t=1705465012"
+      "img": "https://composecoffee.com/files/thumbnails/273/1515x2083.crop.jpg?t=1733793950"
     },
     {
       "id": 36,
@@ -294,7 +294,7 @@
       "menu": "플레인 요거트스무디",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/279/384x530.crop.jpg?t=1705464979"
+      "img": "https://composecoffee.com/files/thumbnails/279/1515x2083.crop.jpg?t=1733793918"
     },
     {
       "id": 37,
@@ -302,7 +302,7 @@
       "menu": "블루베리 요거트스무디",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/079/072/384x530.crop.jpg?t=1705464995"
+      "img": "https://composecoffee.com/files/thumbnails/079/072/1515x2083.crop.jpg?t=1733793934"
     },
     {
       "id": 38,
@@ -310,7 +310,7 @@
       "menu": "망고 요거트스무디",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/275/384x530.crop.jpg?t=1705465027"
+      "img": "https://composecoffee.com/files/thumbnails/275/1515x2083.crop.jpg?t=1733793967"
     },
     {
       "id": 39,
@@ -318,7 +318,7 @@
       "menu": "자몽 에이드",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/281/384x530.crop.jpg?t=1705465752"
+      "img": "https://composecoffee.com/files/thumbnails/281/1515x2083.crop.jpg?t=1733794421"
     },
     {
       "id": 40,
@@ -326,7 +326,7 @@
       "menu": "레몬 에이드",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/283/384x530.crop.jpg?t=1705465774"
+      "img": "https://composecoffee.com/files/thumbnails/283/1515x2083.crop.jpg?t=1733794435"
     },
     {
       "id": 41,
@@ -334,7 +334,7 @@
       "menu": "유자 에이드",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/287/384x530.crop.jpg?t=1705465811"
+      "img": "https://composecoffee.com/files/thumbnails/287/1515x2083.crop.jpg?t=1733794470"
     },
     {
       "id": 42,
@@ -342,7 +342,7 @@
       "menu": "블루레몬 스페셜에이드",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/289/384x530.crop.jpg?t=1705465702"
+      "img": "https://composecoffee.com/files/thumbnails/289/1515x2083.crop.jpg?t=1733794379"
     },
     {
       "id": 43,
@@ -350,7 +350,7 @@
       "menu": "청포도 스페셜에이드",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/291/384x530.crop.jpg?t=1705465718"
+      "img": "https://composecoffee.com/files/thumbnails/291/1515x2083.crop.jpg?t=1733794394"
     },
     {
       "id": 44,
@@ -358,7 +358,7 @@
       "menu": "패션후르츠 스페셜에이드",
       "onlyIce": true,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/293/384x530.crop.jpg?t=1705465735"
+      "img": "https://composecoffee.com/files/thumbnails/293/1515x2083.crop.jpg?t=1733794407"
     },
     {
       "id": 45,
@@ -366,7 +366,7 @@
       "menu": "페퍼민트",
       "onlyIce": false,
       "price": 2500,
-      "img": "https://composecoffee.com/files/thumbnails/797/038/384x530.crop.jpg?t=1705465243"
+      "img": "https://composecoffee.com/files/thumbnails/797/038/1515x2083.crop.jpg?t=1733794710"
     },
     {
       "id": 46,
@@ -374,7 +374,7 @@
       "menu": "캐모마일",
       "onlyIce": false,
       "price": 2500,
-      "img": "https://composecoffee.com/files/thumbnails/795/038/384x530.crop.jpg?t=1705465284"
+      "img": "https://composecoffee.com/files/thumbnails/795/038/1515x2083.crop.jpg?t=1733794748"
     },
     {
       "id": 47,
@@ -382,7 +382,7 @@
       "menu": "로즈마리",
       "onlyIce": false,
       "price": 2500,
-      "img": "https://composecoffee.com/files/thumbnails/793/038/384x530.crop.jpg?t=1705465327"
+      "img": "https://composecoffee.com/files/thumbnails/793/038/1515x2083.crop.jpg?t=1733794791"
     },
     {
       "id": 48,
@@ -390,7 +390,7 @@
       "menu": "얼그레이",
       "onlyIce": false,
       "price": 2500,
-      "img": "https://composecoffee.com/files/thumbnails/791/038/384x530.crop.jpg?t=1705465387"
+      "img": "https://composecoffee.com/files/thumbnails/791/038/1515x2083.crop.jpg?t=1733794825"
     },
     {
       "id": 49,
@@ -398,7 +398,7 @@
       "menu": "블랙퍼스트",
       "onlyIce": false,
       "price": 2500,
-      "img": "https://composecoffee.com/files/thumbnails/789/038/384x530.crop.jpg?t=1705465455"
+      "img": "https://composecoffee.com/files/thumbnails/789/038/1515x2083.crop.jpg?t=1733794858"
     },
     {
       "id": 50,
@@ -406,7 +406,7 @@
       "menu": "자몽 과일티",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/678/038/384x530.crop.jpg?t=1705465504"
+      "img": "https://composecoffee.com/files/thumbnails/678/038/1515x2083.crop.jpg?t=1733794908"
     },
     {
       "id": 51,
@@ -414,7 +414,7 @@
       "menu": "레몬 과일티",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/680/038/384x530.crop.jpg?t=1705465544"
+      "img": "https://composecoffee.com/files/thumbnails/680/038/1515x2083.crop.jpg?t=1733794944"
     },
     {
       "id": 52,
@@ -422,7 +422,7 @@
       "menu": "유자 과일티",
       "onlyIce": false,
       "price": 3500,
-      "img": "https://composecoffee.com/files/thumbnails/682/038/384x530.crop.jpg?t=1705465592"
+      "img": "https://composecoffee.com/files/thumbnails/682/038/1515x2083.crop.jpg?t=1733794981"
     },
     {
       "id": 53,
@@ -430,7 +430,7 @@
       "menu": "복숭아티",
       "onlyIce": true,
       "price": 3000,
-      "img": "https://composecoffee.com/files/thumbnails/672/038/384x530.crop.jpg?t=1705465141"
+      "img": "https://composecoffee.com/files/thumbnails/672/038/1515x2083.crop.jpg?t=1733794602"
     },
     {
       "id": 54,
@@ -438,7 +438,7 @@
       "menu": "자몽허니블랙티",
       "onlyIce": true,
       "price": 3800,
-      "img": "https://composecoffee.com/files/thumbnails/676/038/384x530.crop.jpg?t=1705465189"
+      "img": "https://composecoffee.com/files/thumbnails/676/038/1515x2083.crop.jpg?t=1733794667"
     },
     {
       "id": 55,
@@ -446,7 +446,7 @@
       "menu": "리얼초코자바칩 프라페",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/315/384x530.crop.jpg?t=1705465925"
+      "img": "https://composecoffee.com/files/thumbnails/315/1515x2083.crop.jpg?t=1733793757"
     },
     {
       "id": 56,
@@ -454,7 +454,7 @@
       "menu": "쿠키초코 프라페",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/317/384x530.crop.jpg?t=1705465942"
+      "img": "https://composecoffee.com/files/thumbnails/317/1515x2083.crop.jpg?t=1733793778"
     },
     {
       "id": 57,
@@ -462,7 +462,7 @@
       "menu": "민트초코오레오 프라페",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/319/384x530.crop.jpg?t=1705465958"
+      "img": "https://composecoffee.com/files/thumbnails/319/1515x2083.crop.jpg?t=1733793799"
     },
     {
       "id": 58,
@@ -470,7 +470,7 @@
       "menu": "그린티 프라페",
       "onlyIce": true,
       "price": 4000,
-      "img": "https://composecoffee.com/files/thumbnails/321/384x530.crop.jpg?t=1705465978"
+      "img": "https://composecoffee.com/files/thumbnails/321/1515x2083.crop.jpg?t=1733793817"
     },
     {
       "id": 59,
@@ -478,7 +478,7 @@
       "menu": "모카자바칩 프라페",
       "onlyIce": true,
       "price": 4500,
-      "img": "https://composecoffee.com/files/thumbnails/235/384x530.crop.jpg?t=1705468639"
+      "img": "https://composecoffee.com/files/thumbnails/235/1515x2083.crop.jpg?t=1733793839"
     },
     {
       "id": 60,
@@ -486,7 +486,7 @@
       "menu": "플레인밀크쉐이크",
       "onlyIce": true,
       "price": 4200,
-      "img": "https://composecoffee.com/files/thumbnails/323/384x530.crop.jpg?t=1705466337"
+      "img": "https://composecoffee.com/files/thumbnails/323/1515x2083.crop.jpg?t=1733794135"
     },
     {
       "id": 61,
@@ -494,7 +494,7 @@
       "menu": "캔디소다 밀크쉐이크",
       "onlyIce": true,
       "price": 4200,
-      "img": "https://composecoffee.com/files/thumbnails/896/064/384x530.crop.jpg?t=1705466405"
+      "img": "https://composecoffee.com/files/thumbnails/896/064/1515x2083.crop.jpg?t=1733794185"
     },
     {
       "id": 62,
@@ -502,7 +502,7 @@
       "menu": "쿠키 밀크쉐이크",
       "onlyIce": true,
       "price": 4500,
-      "img": "https://composecoffee.com/files/thumbnails/327/384x530.crop.jpg?t=1705466423"
+      "img": "https://composecoffee.com/files/thumbnails/327/1515x2083.crop.jpg?t=1733794237"
     },
     {
       "id": 63,
@@ -510,7 +510,7 @@
       "menu": "커피 밀크쉐이크",
       "onlyIce": true,
       "price": 4500,
-      "img": "https://composecoffee.com/files/thumbnails/231/384x530.crop.jpg?t=1707207443"
+      "img": "https://composecoffee.com/files/thumbnails/231/1515x2083.crop.jpg?t=1733794252"
     },
     {
       "id": 64,
@@ -518,31 +518,7 @@
       "menu": "팥절미 밀크쉐이크",
       "onlyIce": true,
       "price": 4500,
-      "img": "https://composecoffee.com/files/thumbnails/325/384x530.crop.jpg?t=1705466468"
-    },
-    {
-      "id": 65,
-      "category": "etc",
-      "menu": "콘소메 수프맛 팝콘",
-      "onlyIce": false,
-      "price": 1500,
-      "img": "https://composecoffee.com/files/thumbnails/666/044/384x530.crop.jpg?t=1705294166"
-    },
-    {
-      "id": 66,
-      "category": "etc",
-      "menu": "더블샷 카라멜 팝콘",
-      "onlyIce": false,
-      "price": 2000,
-      "img": "https://composecoffee.com/files/thumbnails/669/044/384x530.crop.jpg?t=1704357993"
-    },
-    {
-      "id": 67,
-      "category": "etc",
-      "menu": "트러플 체다치즈 팝콘",
-      "onlyIce": false,
-      "price": 1700,
-      "img": "https://composecoffee.com/files/thumbnails/050/064/384x530.crop.jpg?t=1704358078"
+      "img": "https://composecoffee.com/files/thumbnails/325/1515x2083.crop.jpg?t=1733794266"
     },
     {
       "id": 68,
@@ -550,7 +526,7 @@
       "menu": "빅포즈 아메리카노(946ml, 4샷)",
       "onlyIce": false,
       "price": 3000,
-      "img": "https://composecoffee.com/files/thumbnails/253/097/384x530.crop.jpg?t=1708913648"
+      "img": ""
     }
   ]
 }
