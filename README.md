@@ -1,36 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SSAFY-COFFY
 
-## Getting Started
+교육장 내 카페가 없어 커피를 마시지 못하는 SSAFY 교육생들을 위한 커피 주문 플랫폼입니다.
 
-First, run the development server:
+기존의 수기 수합으로 이뤄졌던 커피 주문 과정을 자동화하며, 교육장 인근 카페와 제휴를 맺어 매일 점심시간 마다 단체 배달 주문을 진행합니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+11기와 12기 교육기간(총 1년)간 운영되었으며 약 2,000만 원의 가치를 창출하며 교육생들의 커피를 책임졌습니다.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 주요 기능
+- 교육장 메신저 ID로 로그인
+- 커피 메뉴 및 카테고리 분류, 옵션(핫/아이스, 샷/시럽/우유/펄 추가 등)
+- 장바구니 및 주문 내역 확인 기능
+- 계좌이체 송금을 통한 주문 진행
+- 교육장 메신저 봇을 통한 주문 시작/종료 알림, 주문 통계
+- 커피 수령 인원 난수 추출(주문 수량별 가중치 증가)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 회고
+[프로젝트 회고](https://monamigoon.tistory.com/entry/%EC%8B%B8%ED%94%BC%EC%BD%94%ED%94%BCSSAFY-COFFY-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0)
